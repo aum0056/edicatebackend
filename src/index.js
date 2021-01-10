@@ -16,31 +16,34 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(async (req, res, next) => {
   // console.log(`request at ${new Date().toISOString()}`);
+  console.log(req.body);
   next();
 });
 const validateAuthentication = async (req, res, next) => {
   const json = JSON.stringify(req.body);
-  const response = await axios.post('https://myapi.ku.th/auth/login', json, {
+  console.log(json);
+  const response = await axios.post("https://myapi.ku.th/auth/login", json, {
     headers: {
-      'Content-Type': 'application/json',
-      'app-key' : 'txCR5732xYYWDGdd49M3R19o1OVwdRFc'
+      "Content-Type": "application/json",
+      "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
       // 'Content-Type': 'application/x-www-form-urlencoded',
     },
-  })
+  });
   // console.log(response.data);
   // res.status(200).send({ accesstoken: response.data.accesstoken,
   //   idCode:response.data.user.idCode });
-  const path = 'https://myapi.ku.th/std-profile/checkGrades?idcode='.concat(response.data.user.idCode)
-  const userData = await axios.get(path, {
-    headers: {
-      'Content-Type': 'application/json',
-      'app-key' : 'txCR5732xYYWDGdd49M3R19o1OVwdRFc',
-      'x-access-token' : response.data.accesstoken
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-    })
-    res.status(200).send({ data: userData.data });
-  // const user = users.find(user => user.username === username)  
+  // const path = "https://myapi.ku.th/std-profile/checkGrades?idcode=".concat(
+  //   response.data.user.idCode
+  // );
+  // const userData = await axios.get(path, {
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //     "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+  //     "x-access-token": response.data.accesstoken,
+  //   },
+  // });
+  res.status(200).send({ data: response.data });
+  // const user = users.find(user => user.username === username)
   // if(user) {
   //   if(password === user.password) {
   //     next()
@@ -49,11 +52,11 @@ const validateAuthentication = async (req, res, next) => {
   //   }
   // }
   // console.log(user)
-  // next()
-}
+  next();
+};
 
 app.post("/login", validateAuthentication, async (req, res) => {
-  res.status(200).send({ message: 'ok' });
+  res.status(200).send({ message: "ok" });
 });
 
 app.get("/", async (req, res) => {
@@ -91,7 +94,6 @@ app.get("/", async (req, res) => {
 // app.put("/users/:id", async (req, res) => {});
 
 // app.delete("/users/:id", async (req, res) => {});
-
 
 const PORT = process.env.PORT || 8000;
 
