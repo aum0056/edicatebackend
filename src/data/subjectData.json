@@ -85,13 +85,6 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
-            "id" : "01175124",
-            "thainame" : "แฮนด์บอลเพื่อสุขภาพ",
-            "engname" : "Handball for Health",
-            "credit" : 1,
-            "group" : "อยู่ดีมีสุข"
-        },
-        {
             "id" : "01175125",
             "thainame" : "ซอฟท์บอลเพื่อสุขภาพ",
             "engname" : "Softball for Health",
@@ -1130,6 +1123,1181 @@
     ],
 
     "SubjectDetail_2555" : [
-
+        {
+            "id" : "01005101",
+            "thainame" : "เทคโนโลยีเกษตรสมัยใหม่",
+            "engname" : "Modern Agriculture Technology",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01054101",
+            "thainame" : "อุตสาหกรรมเกษตรทั่วไป",
+            "engname" : "General Agro-Industry",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01173151",
+            "thainame" : "เอดส์ศึกษา",
+            "engname" : "AIDS Education",
+            "credit" : 2,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01200101",
+            "thainame" : "การคิดเชิงนวัตกรรม",
+            "engname" : "Innovative Thinking",
+            "credit" : 1,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01204111",
+            "thainame" : "คอมพิวเตอร์และการโปรแกรม",
+            "engname" : "Computers and Programming",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01251101",
+            "thainame" : "การเพาะเลี้ยงสัตว์น้ำทั่วไป",
+            "engname" : "General Aquaculture",
+            "credit" : 2,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01251102",
+            "thainame" : "การเลี้ยงปลาสวยงาม",
+            "engname" : "Ornamental Fish Culture",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01254201",
+            "thainame" : "สาหร่ายและพรรณไม้น้ำเพื่อสุขภาพ",
+            "engname" : "Algae and Aquatic Plants for Health",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01254202",
+            "thainame" : "ผลิตภัณฑ์เสริมอาหารจากผลิตภัณฑ์ประมง",
+            "engname" : "Dietary Supplements from Fishery Products",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01255101",
+            "thainame" : "มนุษย์กับทะเล",
+            "engname" : "Man and Sea",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01301201",
+            "thainame" : "การอนุรักษ์ทรัพยากรและสิ่งแวดล้อม",
+            "engname" : "Resources and Environmental Conservation",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01401201",
+            "thainame" : "พืช มนุษย์และสิ่งแวดล้อม",
+            "engname" : "Plants, Man and Environment",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01404101",
+            "thainame" : "วิทยาศาสตร์ทั่วไป",
+            "engname" : "General Science",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01418111",
+            "thainame" : "การใช้งานคอมพิวเตอร์",
+            "engname" : "Computer Applications",
+            "credit" : 1,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01418112",
+            "thainame" : "คอมพิวเตอร์เบื้องต้น",
+            "engname" : "Introduction to Computer",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01418113",
+            "thainame" : "เทคโนโลยีคอมพิวเตอร์และสารสนเทศ",
+            "engname" : "Computer and Information Technology",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01420101",
+            "thainame" : "ฟิสิกส์ในชีวิตประจำวัน",
+            "engname" : "Physics in Everyday life",
+            "credit" : 2,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01420102",
+            "thainame" : "ฟิสิกส์พื้นฐานสำหรับการแสดง",
+            "engname" : "Basic Theater Physics",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01420201",
+            "thainame" : "อัญมณีและเครื่องประดับ",
+            "engname" : "Gems and Jewelry",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01421211",
+            "thainame" : "รังสี  ชีวิต และสิ่งแวดล้อม",
+            "engname" : "Radiation, Life and Environment",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01422101",
+            "thainame" : "สถิติประยุกต์เบื้องต้น",
+            "engname" : "Elementary Applied Statistics",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01424201",
+            "thainame" : "ชีวิตกับสิ่งแวดล้อม",
+            "engname" : "Life and Environmental Science",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01503101",
+            "thainame" : "การจัดการสุขภาพเบื้องต้นในปลาสวยงาม",
+            "engname" : "Fundamental Health Management in Ornamental Fish",
+            "credit" : 1,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01507101",
+            "thainame" : "การจัดการสุขภาพเบื้องต้นในสุนัข",
+            "engname" : "Fundamental Health Management in Dogs",
+            "credit" : 1,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01507102",
+            "thainame" : "การจัดการสุขภาพเบื้องต้นในแมว",
+            "engname" : "Fundamental Health Management in Cat",
+            "credit" : 1,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01999011",
+            "thainame" : "อาหารเพื่อมนุษยชาติ",
+            "engname" : "Food for Mankind",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01999012",
+            "thainame" : "สุขภาพเพื่อชีวิต",
+            "engname" : "Health for Life",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01999013",
+            "thainame" : "การจัดการสารสนเทศยุคใหม่ในชีวิตประจำวัน",
+            "engname" : "New Age Information Management in Everyday Life",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01999211",
+            "thainame" : "คณิตศาสตร์และคอมพิวเตอร์ในชีวิตประจำวัน",
+            "engname" : "Mathematics and Computers in Everyday Life",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01999212",
+            "thainame" : "แนวคิดทางวิทยาศาสตร์กับปรัชญา",
+            "engname" : "Concepts of Sciences and Philosophy",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01999213",
+            "thainame" : "สิ่งแวดล้อม เทคโนโลยีและชีวิต",
+            "engname" : "Environment, Technology and Life",
+            "credit" : 3,
+            "group" : "วิทยาศาสตร์และคณิตศาสตร์"
+        },
+        {
+            "id" : "01376101",
+            "thainame" : "วรรณกรรมกับชีวิต",
+            "engname" : "Literature and Life",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01386121",
+            "thainame" : "สังคีตนิยม",
+            "engname" : "Music Appreciation",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01387101",
+            "thainame" : "ศิลปะการอยู่ร่วมกับผู้อื่น",
+            "engname" : "The Art of Living with Others",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01387102",
+            "thainame" : "ปรัชญาทั่วไป",
+            "engname" : "General Philosophy",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01387103",
+            "thainame" : "ปรัชญาเศรษฐกิจพอเพียงกับพุทธศาสนา",
+            "engname" : "Philosophy of Sufficiency Economics and Buddhism",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01387104",
+            "thainame" : "ปรัชญาและศาสนาในประเทศอาเซียน",
+            "engname" : "Philosophy and  Religion  in  Asean Countries",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01999031",
+            "thainame" : "มรดกอารยธรรมโลก",
+            "engname" : "The Heritage of World Civilizations",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01999032",
+            "thainame" : "ไทยศึกษา",
+            "engname" : "Thai Studies",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01999033",
+            "thainame" : "ศิลปะการดำเนินชีวิต",
+            "engname" : "Arts of Living",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01999034",
+            "thainame" : "ศิลปวิจักษณ์",
+            "engname" : "Art Perception",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01999035",
+            "thainame" : "วัฒนธรรมดนตรีกับชีวิต",
+            "engname" : "Music Culture in Life",
+            "credit" : 3,
+            "group" : "มนุษยศาสตร์"
+        },
+        {
+            "id" : "01001317",
+            "thainame" : "พระมหากษัตริย์และผู้นำประเทศกับการพัฒนาภาคการเกษตร",
+            "engname" : "Kings and State Leaders on Agricultural Sector Development",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01119407",
+            "thainame" : "การจัดการและการพัฒนาธุรกิจการเกษตร",
+            "engname" : "Agribusiness Management and Development",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01125101",
+            "thainame" : "สหกรณ์เบื้องต้น",
+            "engname" : "Introduction to Cooperative Sciences",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01132101",
+            "thainame" : "ผู้ประกอบการรุ่นใหม่",
+            "engname" : "Modern Entrepreneur",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01371111",
+            "thainame" : "สื่อสารสนเทศ",
+            "engname" : "Information Media",
+            "credit" : 1,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01371112",
+            "thainame" : "การรู้สารสนเทศ",
+            "engname" : "Information Literacy",
+            "credit" : 2,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01371421",
+            "thainame" : "การเขียนบทความทางวิชาการ",
+            "engname" : "Technical Research Writing",
+            "credit" : "",
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01453101",
+            "thainame" : "ความรู้เบื้องต้นเกี่ยวกับกฎหมายทั่วไป",
+            "engname" : "Introduction to Law",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01453102",
+            "thainame" : "กฎหมายในชีวิตประจำวัน",
+            "engname" : "Law in Everyday Life",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01455101",
+            "thainame" : "การเมืองโลกในชีวิตประจำวัน",
+            "engname" : "World Politics in Daily Life",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01459101",
+            "thainame" : "จิตวิทยาเพื่อชีวิตสมัยใหม่",
+            "engname" : "Psychology for Modern Life",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01460101",
+            "thainame" : "สังคมและวัฒนธรรมไทยร่วมสมัย",
+            "engname" : "Contemporary Thai Society and Culture",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01999041",
+            "thainame" : "เศรษฐศาสตร์เพื่อการดำเนินชีวิตที่ดี",
+            "engname" : "Economics for Better Living",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01999043",
+            "thainame" : "การคิดสร้างสรรค์เพื่อการจัดการคุณค่า",
+            "engname" : "Creativity for Value Management",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01999141",
+            "thainame" : "มนุษย์กับสังคม",
+            "engname" : "Man and Society",
+            "credit" : 3,
+            "group" : "สังคมศาสตร์"
+        },
+        {
+            "id" : "01354311",
+            "thainame" : "ภาษาเขมร I",
+            "engname" : "Khmer I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01354312",
+            "thainame" : "ภาษาเขมร II",
+            "engname" : "Khmer II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01354411",
+            "thainame" : "ภาษาเขมร III",
+            "engname" : "Khmer III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355111",
+            "thainame" : "ภาษาอังกฤษพื้นฐาน I",
+            "engname" : "Foundation English I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355112",
+            "thainame" : "ภาษาอังกฤษพื้นฐาน II",
+            "engname" : "Foundation English II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355113",
+            "thainame" : "ภาษาอังกฤษพื้นฐาน III",
+            "engname" : "Foundation English III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355114",
+            "thainame" : "ภาษาอังกฤษสำหรับนิสิตเตรียมแพทย์ I",
+            "engname" : "English for Pre-Medical Students I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355115",
+            "thainame" : "ภาษาอังกฤษสำหรับนิสิตเตรียมแพทย์ II",
+            "engname" : "English for Pre-Medical Students II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355201",
+            "thainame" : "การอ่านภาษาอังกฤษเบื้องต้น",
+            "engname" : "Fundamental English Reading",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355202",
+            "thainame" : "การเขียนภาษาอังกฤษเบื้องต้น",
+            "engname" : "Fundamental English Writing",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355203",
+            "thainame" : "โครงสร้างภาษาอังกฤษเบื้องต้น",
+            "engname" : "Fundamental English Structure",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355204",
+            "thainame" : "การฟัง-การพูดภาษาอังกฤษเบื้องต้น",
+            "engname" : "Fundamental English Listening-Speaking",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355205",
+            "thainame" : "การอ่านภาษาอังกฤษด้านสื่อสารมวลชน",
+            "engname" : "Reading for Mass Communication in English",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355206",
+            "thainame" : "อังกฤษวิชาการ",
+            "engname" : "Technical English",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355207",
+            "thainame" : "การเขียนโต้ตอบภาษาอังกฤษ",
+            "engname" : "English Correspondence",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355208",
+            "thainame" : "ภาษาอังกฤษจากเพลง",
+            "engname" : "English through Songs",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355209",
+            "thainame" : "ภาษาอังกฤษเพื่อการสื่อสารในงานอาชีพ",
+            "engname" : "Communicative English for Careers",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355301",
+            "thainame" : "ภาษาอังกฤษเพื่อนักกีฬาและผู้ตัดสิน",
+            "engname" : "English for Athletes and Referees",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355302",
+            "thainame" : "การเขียนรายงานภาษาอังกฤษ",
+            "engname" : "Report Writing in English",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355303",
+            "thainame" : "ภาษาอังกฤษเพื่อการสมัครงาน",
+            "engname" : "English for Employment",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355304",
+            "thainame" : "ภาษาอังกฤษสำหรับอุตสาหกรรมการท่องเที่ยว",
+            "engname" : "English for Tourism Industry",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01355305",
+            "thainame" : "ภาษาอังกฤษเพื่อการส่งออก",
+            "engname" : "English for Exporting",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01356101",
+            "thainame" : "ภาษาฝรั่งเศสเบื้องต้น I",
+            "engname" : "Elementary French I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01356102",
+            "thainame" : "ภาษาฝรั่งเศสเบื้องต้น II",
+            "engname" : "Elementary French II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01356103",
+            "thainame" : "ภาษาฝรั่งเศสเบื้องต้น III",
+            "engname" : "Elementary French III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01356104",
+            "thainame" : "ภาษาฝรั่งเศสเบื้องต้น IV",
+            "engname" : "Elementary French IV",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01357111",
+            "thainame" : "ภาษาเยอรมันเบื้องต้น I",
+            "engname" : "Elementary German I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01357112",
+            "thainame" : "ภาษาเยอรมันเบื้องต้น II",
+            "engname" : "Elementary German II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01357113",
+            "thainame" : "ภาษาเยอรมันเบื้องต้น III",
+            "engname" : "Elementary German III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01357114",
+            "thainame" : "ภาษาเยอรมันเบื้องต้น IV",
+            "engname" : "Elementary German IV",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01357232",
+            "thainame" : "ความรู้เบื้องต้นเกี่ยวกับศิลปะและดนตรีเยอรมัน",
+            "engname" : "Introduction to German Art and Music",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01358101",
+            "thainame" : "ภาษาญี่ปุ่นเบื้องต้น I",
+            "engname" : "Elementary Japanese I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01358102",
+            "thainame" : "ภาษาญี่ปุ่นเบื้องต้น II",
+            "engname" : "Elementary Japanese II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01358103",
+            "thainame" : "ภาษาญี่ปุ่นเบื้องต้น III",
+            "engname" : "Elementary Japanese III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01358104",
+            "thainame" : "ภาษาญี่ปุ่นเบื้องต้น IV",
+            "engname" : "Elementary Japanese IV",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01361101",
+            "thainame" : "การใช้ภาษาไทยเบื้องต้น",
+            "engname" : "Introductory Thai Usage",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01361102",
+            "thainame" : "การเขียนภาษาไทยเชิงปฏิบัติ",
+            "engname" : "Thai  Practical  Writing",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01361222",
+            "thainame" : "การอ่านภาษาไทยเชิงวิจารณ์",
+            "engname" : "Thai  Critical  Reading",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01362101",
+            "thainame" : "ภาษาจีน I",
+            "engname" : "Chinese I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01362102",
+            "thainame" : "ภาษาจีน II",
+            "engname" : "Chinese II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01362201",
+            "thainame" : "ภาษาจีน III",
+            "engname" : "Chinese III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01362202",
+            "thainame" : "ภาษาจีน IV",
+            "engname" : "Chinese IV",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01362301",
+            "thainame" : "ภาษาจีน V",
+            "engname" : "Chinese V",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01366311",
+            "thainame" : "ภาษาลาว I",
+            "engname" : "Laotian I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01366312",
+            "thainame" : "ภาษาลาว II",
+            "engname" : "Laotian II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01366411",
+            "thainame" : "ภาษาลาว III",
+            "engname" : "Laotian III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01367311",
+            "thainame" : "ภาษาพม่า I",
+            "engname" : "Myanmar Language I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01367312",
+            "thainame" : "ภาษาพม่า II",
+            "engname" : "Myanmar Language II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01367411",
+            "thainame" : "ภาษาพม่า III",
+            "engname" : "Myanmar Language III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01372101",
+            "thainame" : "สัทศาสตร์ภาษาอังกฤษ",
+            "engname" : "English Phonetics",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01372201",
+            "thainame" : "โครงสร้างของคำในภาษาอังกฤษ",
+            "engname" : "Word Structure in English",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01372211",
+            "thainame" : "มนุษย์กับภาษา",
+            "engname" : "Man and Language",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01395101",
+            "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร I",
+            "engname" : "Communicative Korean I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01395102",
+            "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร II",
+            "engname" : "Communicative Korean II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01395103",
+            "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร III",
+            "engname" : "Communicative Korean III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01395104",
+            "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร IV",
+            "engname" : "Communicative Korean IV",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01395105",
+            "thainame" : "การอ่านและรายงานภาษาเกาหลี",
+            "engname" : "Korean Reading and Oral Report",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01395106",
+            "thainame" : "การฟัง-พูดภาษาเกาหลี",
+            "engname" : "Korean Listening and Speaking",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01398101",
+            "thainame" : "ภาษามลายูเพื่อการสื่อสาร I",
+            "engname" : "Communicative Malayu I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01398102",
+            "thainame" : "ภาษามลายูเพื่อการสื่อสาร II",
+            "engname" : "Communicative Malayu II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01398103",
+            "thainame" : "ภาษามลายูเพื่อการสื่อสาร III",
+            "engname" : "Communicative Malayu III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01398104",
+            "thainame" : "ภาษามลายูเพื่อการสื่อสาร IV",
+            "engname" : "Communicative Malayu IV",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01398105",
+            "thainame" : "การอ่านภาษามลายู",
+            "engname" : "Malayu Reading",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01398106",
+            "thainame" : "การฟัง-พูดภาษามลายู",
+            "engname" : "Malayu Listening and Speaking",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01399101",
+            "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร I",
+            "engname" : "Communicative Vietnamese I",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01399102",
+            "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร II",
+            "engname" : "Communicative Vietnamese II",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01399103",
+            "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร III",
+            "engname" : "Communicative Vietnamese III",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01399104",
+            "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร IV",
+            "engname" : "Communicative Vietnamese IV",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01399105",
+            "thainame" : "การอ่านภาษาเวียดนาม",
+            "engname" : "Vietnamese Reading",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01399106",
+            "thainame" : "การฟัง-พูดภาษาเวียดนาม",
+            "engname" : "Vietnamese Listening and Speaking",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01999021",
+            "thainame" : "ภาษาไทยเพื่อการสื่อสาร",
+            "engname" : "Thai Language for Communication",
+            "credit" : 3,
+            "group" : "ภาษา"
+        },
+        {
+            "id" : "01175111",
+            "thainame" : "กรีฑาลู่-ลาน",
+            "engname" : "Track and Field",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175112",
+            "thainame" : "แบดมินตัน",
+            "engname" : "Badminton",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175113",
+            "thainame" : "เทนนิส",
+            "engname" : "Lawn Tennis",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175114",
+            "thainame" : "เทเบิลเทนนิส",
+            "engname" : "Table-Tennis",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175115",
+            "thainame" : "ยิงปืน",
+            "engname" : "Shooting",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175116",
+            "thainame" : "ยิมนาสติก",
+            "engname" : "Gymnastics",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175117",
+            "thainame" : "ยิงธนู",
+            "engname" : "Archery",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175121",
+            "thainame" : "บาสเกตบอล",
+            "engname" : "Basketball",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175122",
+            "thainame" : "ฟุตบอล",
+            "engname" : "Soccer",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175123",
+            "thainame" : "วอลเลย์บอล",
+            "engname" : "Volleyball",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175124",
+            "thainame" : "แฮนด์บอล",
+            "engname" : "Handball",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175125",
+            "thainame" : "ซอฟท์บอล",
+            "engname" : "Softball",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175126",
+            "thainame" : "ตะกร้อ",
+            "engname" : "Takraw",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175127",
+            "thainame" : "ฮอกกี้",
+            "engname" : "Hockey",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175128",
+            "thainame" : "รักบี้ฟุตบอล",
+            "engname" : "Rugby Football",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175129",
+            "thainame" : "ฟุตซอล",
+            "engname" : "Futsal",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175131",
+            "thainame" : "ว่ายน้ำ",
+            "engname" : "Swimming",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175132",
+            "thainame" : "การช่วยคนตกน้ำ",
+            "engname" : "Lifesaving",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175133",
+            "thainame" : "กระโดดน้ำ",
+            "engname" : "Diving",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175134",
+            "thainame" : "โปโลน้ำ",
+            "engname" : "Water Polo",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175141",
+            "thainame" : "การเต้นรำแบบแอโรบิก",
+            "engname" : "Aerobic Dance",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175142",
+            "thainame" : "โฟล์คด๊านซ์",
+            "engname" : "Folk Dance",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175143",
+            "thainame" : "ลีลาศ",
+            "engname" : "Social Dance",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175144",
+            "thainame" : "นาฏศิลป์",
+            "engname" : "Thai Classical Dance",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175151",
+            "thainame" : "ดาบไทย",
+            "engname" : "Thai Fencing",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175152",
+            "thainame" : "ดาบสากล",
+            "engname" : "Fencing",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175153",
+            "thainame" : "มวยไทย",
+            "engname" : "Thai Boxing",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175154",
+            "thainame" : "มวยสากล",
+            "engname" : "Boxing",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175155",
+            "thainame" : "ยูโด",
+            "engname" : "Judo",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175156",
+            "thainame" : "ไอกิโด",
+            "engname" : "Aikido",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175157",
+            "thainame" : "กระบี่กระบอง",
+            "engname" : "Sword and Pole Fighting",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175158",
+            "thainame" : "มวยปล้ำ",
+            "engname" : "Wrestling",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175159",
+            "thainame" : "คาราเต้",
+            "engname" : "Karate",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175161",
+            "thainame" : "บริดจ์",
+            "engname" : "Contract Bridge",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175162",
+            "thainame" : "โบว์ลิ่ง",
+            "engname" : "Bowling",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175163",
+            "thainame" : "กอล์ฟ",
+            "engname" : "Golf",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175164",
+            "thainame" : "จักรยาน",
+            "engname" : "Cycling",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175165",
+            "thainame" : "ยกน้ำหนัก",
+            "engname" : "Weight Training",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175166",
+            "thainame" : "เทควันโด",
+            "engname" : "Taekwondo",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        },
+        {
+            "id" : "01175168",
+            "thainame" : "การวิ่งเหยาะเพื่อสุขภาพ",
+            "engname" : "Jogging for Health",
+            "credit" : 1,
+            "group" : "พลศึกษา"
+        }
     ]
 }
