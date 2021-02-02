@@ -1,6 +1,6 @@
-{
-    "SubjectDetail_2559" : [
+[
         {
+            "year" : 2559,
             "id" : "01175111",
             "thainame" : "กรีฑาลู่-ลานเพื่อสุขภาพ",
             "engname" : "Track and Field for Health",
@@ -8,6 +8,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175112",
             "thainame" : "แบดมินตันเพื่อสุขภาพ",
             "engname" : "Badminton for Health",
@@ -15,6 +16,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175113",
             "thainame" : "เทนนิสเพื่อสุขภาพ",
             "engname" : "Tennis for Health",
@@ -22,6 +24,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175114",
             "thainame" : "เทเบิลเทนนิสเพื่อสุขภาพ",
             "engname" : "Table Tennis for Health",
@@ -29,6 +32,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175115",
             "thainame" : "ฝึกสมาธิด้วยกิจกรรมยิงปืน",
             "engname" : "Meditation with Shooting Activity",
@@ -36,6 +40,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175117",
             "thainame" : "ฝึกสมาธิด้วยกิจกรรมยิงธนู",
             "engname" : "Meditation with Archery Activity",
@@ -43,6 +48,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175118",
             "thainame" : "แชร์บอลเพื่อสุขภาพ",
             "engname" : "Chair Ball for Health",
@@ -50,6 +56,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175119",
             "thainame" : "เปตองเพื่อสุขภาพ",
             "engname" : "Pétanque for Health",
@@ -57,6 +64,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175121",
             "thainame" : "บาสเกตบอลเพื่อสุขภาพ",
             "engname" : "Basketball for Health",
@@ -64,6 +72,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175122",
             "thainame" : "ฟุตบอลเพื่อสุขภาพ",
             "engname" : "Soccer for Health",
@@ -71,6 +80,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175123",
             "thainame" : "วอลเลย์บอลเพื่อสุขภาพ",
             "engname" : "Volleyball for Health",
@@ -78,6 +88,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175124",
             "thainame" : "แฮนด์บอลเพื่อสุขภาพ",
             "engname" : "Handball for Health",
@@ -85,6 +96,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175125",
             "thainame" : "ซอฟท์บอลเพื่อสุขภาพ",
             "engname" : "Softball for Health",
@@ -92,6 +104,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175126",
             "thainame" : "ตะกร้อเพื่อสุขภาพ",
             "engname" : "Takraw for Health",
@@ -99,6 +112,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175127",
             "thainame" : "ฮอกกี้เพื่อสุขภาพ",
             "engname" : "Hockey for Health",
@@ -106,6 +120,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175128",
             "thainame" : "รักบี้ฟุตบอลเพื่อสุขภาพ",
             "engname" : "Rugby Football for Health",
@@ -113,6 +128,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175129",
             "thainame" : "ฟุตซอลเพื่อสุขภาพ",
             "engname" : "Futsal for Health",
@@ -120,6 +136,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175131",
             "thainame" : "ว่ายน้ำเพื่อสุขภาพ",
             "engname" : "Swimming for Health",
@@ -127,6 +144,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175133",
             "thainame" : "กระโดดน้ำ",
             "engname" : "Diving",
@@ -134,6 +152,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175134",
             "thainame" : "โปโลน้ำ",
             "engname" : "Water Polo",
@@ -141,6 +160,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175141",
             "thainame" : "การเต้นแอโรบิกเพื่อสุขภาพ",
             "engname" : "Aerobic Dance for Health",
@@ -148,6 +168,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175142",
             "thainame" : "การเต้นรำพื้นเมืองตามวัฒนธรรมท้องถิ่นเพื่อสุขภาพ",
             "engname" : "Folk Dance by Local Culture for Health",
@@ -155,6 +176,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175143",
             "thainame" : "การเต้นลีลาศเพื่อสุขภาพ",
             "engname" : "Social Dance for Health",
@@ -162,6 +184,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175144",
             "thainame" : "รำไทยเพื่อสุขภาพ",
             "engname" : "Thai Classical Dance for Health",
@@ -169,6 +192,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175151",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยดาบไทย",
             "engname" : "Martial Art with Thai Sword",
@@ -176,6 +200,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175152",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยดาบสากล",
             "engname" : "Martial Art with Fencing",
@@ -183,6 +208,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175153",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยมวยไทย",
             "engname" : "Martial Art with Thai Boxing",
@@ -190,6 +216,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175154",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยมวยสากล",
             "engname" : "Martial Art with Boxing",
@@ -197,6 +224,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175155",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยยูโด",
             "engname" : "Martial Art with Judo",
@@ -204,6 +232,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175156",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยไอกิโด",
             "engname" : "Martial Art with Aikido",
@@ -211,6 +240,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175157",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยกระบี่กระบอง",
             "engname" : "Martial Art with Krabi-Krabong",
@@ -218,6 +248,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175159",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยคาราเต้",
             "engname" : "Martial Art with Karate",
@@ -225,6 +256,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175161",
             "thainame" : "ฝึกสมองด้วยการเล่นบริดจ์",
             "engname" : "Brain Training with Playing Bridge",
@@ -232,6 +264,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175162",
             "thainame" : "โบว์ลิ่งเพื่อสุขภาพ",
             "engname" : "Bowling for Health",
@@ -239,6 +272,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175163",
             "thainame" : "กอล์ฟเพื่อสุขภาพ",
             "engname" : "Golf for Health",
@@ -246,6 +280,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175164",
             "thainame" : "จักรยานเพื่อสุขภาพ",
             "engname" : "Cycling for Health",
@@ -253,6 +288,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175165",
             "thainame" : "การฝึกด้วยน้ำหนักเพื่อสุขภาพ",
             "engname" : "Weight Training for Health",
@@ -260,6 +296,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175166",
             "thainame" : "ศิลปะการป้องกันตัวและการต่อสู้ด้วยเทควันโด",
             "engname" : "Martial Art with Taekwondo",
@@ -267,6 +304,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175167",
             "thainame" : "โยคะเพื่อสุขภาพ",
             "engname" : "Yoga for Health",
@@ -274,6 +312,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175168",
             "thainame" : "การวิ่งเหยาะเพื่อสุขภาพ",
             "engname" : "Jogging for Health",
@@ -281,6 +320,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01175169",
             "thainame" : "การออกกำลังกายเพื่อพัฒนาสุขภาพแบบองค์รวม",
             "engname" : "Exercise for developing Holistic Health",
@@ -288,6 +328,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01101102",
             "thainame" : "เศรษฐศาสตร์แนวพุทธเพื่อความเป็นอยู่ที่ดี",
             "engname" : "Buddhist Economics for Well Being",
@@ -295,6 +336,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01173151",
             "thainame" : "เอดส์ศึกษา",
             "engname" : "AIDS Education",
@@ -302,6 +344,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01174231",
             "thainame" : "นันทนาการเบื้องต้น",
             "engname" : "Introduction to Recreation",
@@ -309,6 +352,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01176141",
             "thainame" : "การวางแผนเพื่ออาชีพสำหรับคนรุ่นใหม่",
             "engname" : "Career Planning for the New Generation",
@@ -316,6 +360,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01387101",
             "thainame" : "ศิลปะการอยู่ร่วมกับผู้อื่น",
             "engname" : "The Art of Living with Others",
@@ -323,6 +368,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01387103",
             "thainame" : "ปรัชญาเศรษฐกิจพอเพียงกับพุทธศาสนา",
             "engname" : "Philosophy of Sufficiency Economics and Buddhism",
@@ -330,6 +376,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01402101",
             "thainame" : "การรู้เท่าทันผลิตภัณฑ์เสริมความงาม",
             "engname" : "Beauty Products Literacy",
@@ -337,6 +384,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01421211",
             "thainame" : "รังสี ชีวิต และสิ่งแวดล้อม",
             "engname" : "Radiation, Life and Environment",
@@ -344,6 +392,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01453102",
             "thainame" : "กฎหมายในชีวิตประจำวัน",
             "engname" : "Law in Everyday Life",
@@ -351,6 +400,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01459101",
             "thainame" : "จิตวิทยาเพื่อชีวิตสมัยใหม่",
             "engname" : "Psychology for Modern Life",
@@ -358,6 +408,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01459102",
             "thainame" : "จิตวิทยากับความหลากหลายของมนุษย์",
             "engname" : "Psychology and Human Diversity",
@@ -365,6 +416,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999011",
             "thainame" : "อาหารเพื่อมนุษยชาติ",
             "engname" : "Food for Mankind",
@@ -372,6 +424,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999012",
             "thainame" : "สุขภาพเพื่อชีวิต",
             "engname" : "Health for Life",
@@ -379,6 +432,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999033",
             "thainame" : "ศิลปะการดำเนินชีวิต",
             "engname" : "Arts of Living",
@@ -386,6 +440,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999036",
             "thainame" : "ความสุขในพลวัตของชีวิต",
             "engname" : "Happiness amongst Life Dynamics",
@@ -393,6 +448,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999048",
             "thainame" : "นวัตกรรมเพื่อสิ่งแวดล้อมและสุขภาวะ",
             "engname" : "Innovation for Environment and Health",
@@ -400,6 +456,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999051",
             "thainame" : "การพัฒนาสมรรถนะหลักผ่านสุขภาพหนึ่งเดียว",
             "engname" : "Develop of Core Competency through One Health",
@@ -407,6 +464,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999213",
             "thainame" : "สิ่งแวดล้อม เทคโนโลยี และชีวิต",
             "engname" : "Environment, Technology and Life",
@@ -414,6 +472,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01999213",
             "thainame" : "สิ่งแวดล้อม เทคโนโลยี และชีวิต",
             "engname" : "Environment, Technology and Life",
@@ -421,6 +480,7 @@
             "group" : "อยู่ดีมีสุข"
         },
         {
+            "year" : 2559,
             "id" : "01005101",
             "thainame" : "เทคโนโลยีเกษตรสมัยใหม่",
             "engname" : "Modern Agriculture Technology",
@@ -428,6 +488,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01131111",
             "thainame" : "การเงินสำหรับผู้ประกอบการ",
             "engname" : "Finance for Entrepreneurs",
@@ -435,6 +496,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01132101",
             "thainame" : "ผู้ประกอบการรุ่นใหม่",
             "engname" : "Modern Entrepreneur",
@@ -442,6 +504,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01200101",
             "thainame" : "การคิดเชิงนวัตกรรม",
             "engname" : "Innovative Thinking",
@@ -449,6 +512,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01418102",
             "thainame" : "เทคโนโลยีสารสนเทศเพื่อผู้ประกอบการ",
             "engname" : "Information Technology for Entrepreneurs",
@@ -456,6 +520,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01171141",
             "thainame" : "การแสวงหาความรู้",
             "engname" : "Knowledge Acquisition",
@@ -463,6 +528,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01101101",
             "thainame" : "เศรษฐศาสตร์ทั่วไปในกระแสโลกาภิวัตน์",
             "engname" : "General Economics in Globalization",
@@ -470,6 +536,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01999041",
             "thainame" : "เศรษฐศาสตร์เพื่อการดำเนินชีวิตที่ดี",
             "engname" : "Economics for Better Living",
@@ -477,6 +544,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01999043",
             "thainame" : "การคิดสร้างสรรค์เพื่อการจัดการคุณค่า",
             "engname" : "Creativity for Value Management",
@@ -484,6 +552,7 @@
             "group" : "ศาสตร์แห่งผู้ประกอบการ"
         },
         {
+            "year" : 2559,
             "id" : "01999111",
             "thainame" : "ศาสตร์แห่งแผ่นดิน",
             "engname" : "Knowledge of the Land",
@@ -491,6 +560,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01001317",
             "thainame" : "พระมหากษัตริย์และผู้นำประเทศกับการพัฒนาภาคการเกษตร",
             "engname" : "Kings and State Leaders on Agricultural Sector Development",
@@ -498,6 +568,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01015202",
             "thainame" : "เกษตรวิถีไทย",
             "engname" : "Thai Lives Agriculture",
@@ -505,6 +576,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01174122",
             "thainame" : "การเรียนรู้เชิงนันทนาการโดยการเดินทางในต่างประเทศแบบประหยัด",
             "engname" : "Recreational Learning through Backpack Traveling",
@@ -512,6 +584,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01350101",
             "thainame" : "วิถีชีวิตและวัฒนธรรมในอาเซียน",
             "engname" : "Ways of Life and Culture in ASEAN",
@@ -519,6 +592,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01387104",
             "thainame" : "ปรัชญาและศาสนาในประเทศอาเซียน",
             "engname" : "Philosophy and Religion in ASEAN Countries",
@@ -526,6 +600,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01390102",
             "thainame" : "การท่องเที่ยวเชิงสร้างสรรค์",
             "engname" : "Creative Tourism",
@@ -533,6 +608,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01301101",
             "thainame" : "การอนุรักษ์ทรัพยากรและสิ่งแวดล้อม",
             "engname" : "Resources and Environmental Conservation",
@@ -540,6 +616,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01455101",
             "thainame" : "การเมืองโลกในชีวิตประจำวัน",
             "engname" : "World Politics in Daily Life",
@@ -547,6 +624,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01460101",
             "thainame" : "สังคมและวัฒนธรรมไทยร่วมสมัย",
             "engname" : "Contemporary Thai Society and Culture",
@@ -554,6 +632,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01999031",
             "thainame" : "มรดกอารยธรรมโลก",
             "engname" : "The Heritage of World Civilizations",
@@ -561,6 +640,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01999032",
             "thainame" : "ไทยศึกษา",
             "engname" : "Thai Studies",
@@ -568,6 +648,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01999046",
             "thainame" : "การพัฒนาความมั่นคงแห่งชาติ",
             "engname" : "National Security Development",
@@ -575,6 +656,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01999047",
             "thainame" : "การทหารเพื่อพัฒนาประเทศ",
             "engname" : "Military for Country Development",
@@ -582,6 +664,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01999141",
             "thainame" : "มนุษย์กับสังคม",
             "engname" : "Man and Society",
@@ -589,6 +672,7 @@
             "group" : "พลเมืองไทยและพลเมืองโลก"
         },
         {
+            "year" : 2559,
             "id" : "01361101",
             "thainame" : "การใช้ภาษาไทยเบื้องต้น",
             "engname" : "Introductory Thai Usage",
@@ -596,6 +680,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01361102",
             "thainame" : "การเขียนภาษาไทยเชิงปฏิบัติ",
             "engname" : "Thai Practical Writing",
@@ -603,6 +688,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01361103",
             "thainame" : "การอ่านภาษาไทยเชิงวิจารณ์",
             "engname" : "Thai Critical Reading",
@@ -610,6 +696,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01999021",
             "thainame" : "ภาษาไทยเพื่อการสื่อสาร",
             "engname" : "Thai Language for Communication",
@@ -617,6 +704,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01999022",
             "thainame" : "ภาษาไทยในบริบทวัฒนธรรม",
             "engname" : "Thai Language in Cultural Contex",
@@ -624,6 +712,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01354311",
             "thainame" : "ภาษาเขมร I",
             "engname" : "Khmer I",
@@ -631,6 +720,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01354312",
             "thainame" : "ภาษาเขมร II",
             "engname" : "Khmer II",
@@ -638,6 +728,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01354411",
             "thainame" : "ภาษาเขมร III",
             "engname" : "Khmer III",
@@ -645,6 +736,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355111",
             "thainame" : "ภาษาอังกฤษพื้นฐาน I",
             "engname" : "Foundation English I",
@@ -652,6 +744,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355112",
             "thainame" : "ภาษาอังกฤษพื้นฐาน II",
             "engname" : "Foundation English II",
@@ -659,6 +752,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355113",
             "thainame" : "ภาษาอังกฤษพื้นฐาน III",
             "engname" : "Foundation English III",
@@ -666,6 +760,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355114",
             "thainame" : "ภาษาอังกฤษสำหรับนิสิตเตรียมแพทย์ I",
             "engname" : "English for Pre-Medical Students I",
@@ -673,6 +768,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355115",
             "thainame" : "ภาษาอังกฤษสำหรับนิสิตเตรียมแพทย์ II",
             "engname" : "English for Pre-Medical Students II",
@@ -680,6 +776,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355201",
             "thainame" : "การอ่านภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Reading",
@@ -687,6 +784,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355202",
             "thainame" : "การเขียนภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Writing",
@@ -694,6 +792,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355203",
             "thainame" : "โครงสร้างภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Structure",
@@ -701,6 +800,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355204",
             "thainame" : "การฟัง-การพูดภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Listening-Speaking",
@@ -708,6 +808,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355205",
             "thainame" : "การอ่านภาษาอังกฤษด้านสื่อสารมวลชน",
             "engname" : "Reading for Mass Communication in English",
@@ -715,6 +816,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355206",
             "thainame" : "อังกฤษวิชาการ",
             "engname" : "Technical English",
@@ -722,6 +824,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355207",
             "thainame" : "การเขียนโต้ตอบภาษาอังกฤษ",
             "engname" : "English Correspondence",
@@ -729,6 +832,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355208",
             "thainame" : "ภาษาอังกฤษจากเพลง",
             "engname" : "English through Songs",
@@ -736,6 +840,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355209",
             "thainame" : "ภาษาอังกฤษเพื่อการสื่อสารในงานอาชีพ",
             "engname" : "Communicative English for Careers",
@@ -743,6 +848,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355302",
             "thainame" : "การเขียนรายงานภาษาอังกฤษ",
             "engname" : "Report Writing in English",
@@ -750,6 +856,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01355303",
             "thainame" : "ภาษาอังกฤษเพื่อการสมัครงาน",
             "engname" : "English for Employment",
@@ -757,6 +864,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01356101",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น I",
             "engname" : "Elementary French I",
@@ -764,6 +872,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01356102",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น II",
             "engname" : "Elementary French II",
@@ -771,6 +880,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01356103",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น III",
             "engname" : "Elementary French III",
@@ -778,6 +888,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01356104",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น IV",
             "engname" : "Elementary French IV",
@@ -785,6 +896,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01357111",
             "thainame" : "ภาษาเยอรมันเบื้องต้น I",
             "engname" : "Elementary German I",
@@ -792,6 +904,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01357112",
             "thainame" : "ภาษาเยอรมันเบื้องต้น II",
             "engname" : "Elementary German II",
@@ -799,6 +912,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01357113",
             "thainame" : "ภาษาเยอรมันเบื้องต้น III",
             "engname" : "Elementary German III",
@@ -806,6 +920,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01357114",
             "thainame" : "ภาษาเยอรมันเบื้องต้น IV",
             "engname" : "Elementary German IV",
@@ -813,6 +928,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01358101",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น I",
             "engname" : "Elementary Japanese I",
@@ -820,6 +936,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01358102",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น II",
             "engname" : "Elementary Japanese II",
@@ -827,6 +944,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01358103",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น III",
             "engname" : "Elementary Japanese III",
@@ -834,6 +952,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01358104",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น IV",
             "engname" : "Elementary Japanese IV",
@@ -841,6 +960,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01362101",
             "thainame" : "ภาษาจีน I",
             "engname" : "Chinese I",
@@ -848,6 +968,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01362102",
             "thainame" : "ภาษาจีน II",
             "engname" : "Chinese II",
@@ -855,6 +976,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01362103",
             "thainame" : "ภาษาจีน III",
             "engname" : "Chinese III",
@@ -862,6 +984,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01362104",
             "thainame" : "ภาษาจีน IV",
             "engname" : "Chinese IV",
@@ -869,6 +992,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01362105",
             "thainame" : "ภาษาจีน V",
             "engname" : "Chinese V",
@@ -876,6 +1000,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01367311",
             "thainame" : "ภาษาพม่า I",
             "engname" : "Myanmar Language I",
@@ -883,6 +1008,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01367312",
             "thainame" : "ภาษาพม่า II",
             "engname" : "Myanmar Language II",
@@ -890,6 +1016,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01367411",
             "thainame" : "ภาษาพม่า III",
             "engname" : "Myanmar Language III",
@@ -897,6 +1024,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01395101",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร I",
             "engname" : "Communicative Korean I",
@@ -904,6 +1032,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01395102",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร II",
             "engname" : "Communicative Korean II",
@@ -911,6 +1040,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01395103",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร III",
             "engname" : "Communicative Korean III",
@@ -918,6 +1048,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01395104",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร IV",
             "engname" : "Communicative Korean IV",
@@ -925,6 +1056,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01395105",
             "thainame" : "การอ่านและรายงานภาษาเกาหลี",
             "engname" : "Korean Reading and Oral Report",
@@ -932,6 +1064,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01398101",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร I",
             "engname" : "Communicative Malayu I",
@@ -939,6 +1072,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01398102",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร II",
             "engname" : "Communicative Malayu II",
@@ -946,6 +1080,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01398103",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร III",
             "engname" : "Communicative Malayu III",
@@ -953,6 +1088,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01398104",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร IV",
             "engname" : "Communicative Malayu IV",
@@ -960,6 +1096,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01398105",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร V",
             "engname" : "Communicative Malayu V",
@@ -967,6 +1104,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01398106",
             "thainame" : "การฟัง-พูดภาษามลายู",
             "engname" : "Malayu Listening and Speaking",
@@ -974,6 +1112,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01399101",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร I",
             "engname" : "Communicative Vietnamese I",
@@ -981,6 +1120,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01399102",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร II",
             "engname" : "Communicative Vietnamese II",
@@ -988,6 +1128,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01399103",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร III",
             "engname" : "Communicative Vietnamese III",
@@ -995,6 +1136,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01399104",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร IV",
             "engname" : "Communicative Vietnamese IV",
@@ -1002,6 +1144,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01399105",
             "thainame" : "การอ่านภาษาเวียดนาม",
             "engname" : "Vietnamese Reading",
@@ -1009,6 +1152,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01399106",
             "thainame" : "การฟัง-พูดภาษาเวียดนาม",
             "engname" : "Vietnamese Listening and Speaking",
@@ -1016,6 +1160,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01371111",
             "thainame" : "สื่อสารสนเทศเพื่อการเรียนรู้",
             "engname" : "Information Media for Learning",
@@ -1023,6 +1168,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01418104",
             "thainame" : "รู้ทันไอที",
             "engname" : "IT Updates",
@@ -1030,6 +1176,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01418111",
             "thainame" : "การใช้งานคอมพิวเตอร์",
             "engname" : "Computer Applications",
@@ -1037,6 +1184,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01999013",
             "thainame" : "การจัดการสารสนเทศยุคใหม่ในชีวิตประจำวัน",
             "engname" : "New Age Information Management in Everyday Life",
@@ -1044,6 +1192,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01999023",
             "thainame" : "ทักษะจำเป็นทางคอมพิวเตอร์",
             "engname" : "Essential Computer skill",
@@ -1051,6 +1200,7 @@
             "group" : "ภาษากับการสื่อสาร"
         },
         {
+            "year" : 2559,
             "id" : "01007101",
             "thainame" : "พืชสวนเพื่อคุณภาพชีวิตและสิ่งแวดล้อม",
             "engname" : "Horticulture for life Quality and Environment",
@@ -1058,6 +1208,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01009102",
             "thainame" : "ทรัพยากรการเกษตรและสิ่งแวดล้อม",
             "engname" : "Agricultural Resources and Environment",
@@ -1065,6 +1216,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01240011",
             "thainame" : "การออกแบบในชีวิตประจำวัน",
             "engname" : "Design in Everyday Life",
@@ -1072,6 +1224,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01255101",
             "thainame" : "มนุษย์กับทะเล",
             "engname" : "Man and Sea",
@@ -1079,6 +1232,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01373102",
             "thainame" : "วัฒนธรรมทัศนาการกับชีวิต",
             "engname" : "Visual Culture and Life",
@@ -1086,6 +1240,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01376101",
             "thainame" : "วรรณกรรมกับชีวิต",
             "engname" : "Literature and Life",
@@ -1093,6 +1248,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01387102",
             "thainame" : "ปรัชญาสำหรับโลกยุคใหม่",
             "engname" : "Philosophy for New World",
@@ -1100,6 +1256,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01420201",
             "thainame" : "อัญมณีและเครื่องประดับ",
             "engname" : "Gems and Jewelry",
@@ -1107,6 +1264,7 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01999034",
             "thainame" : "ศิลปวิจักษณ์",
             "engname" : "Art Perception",
@@ -1114,16 +1272,15 @@
             "group" : "สุนทรียศาสตร์"
         },
         {
+            "year" : 2559,
             "id" : "01999035",
             "thainame" : "วัฒนธรรมดนตรีกับชีวิต",
             "engname" : "Music Culture in Life",
             "credit" : 3,
             "group" : "สุนทรียศาสตร์"
-        }
-    ],
-
-    "SubjectDetail_2555" : [
+        },
         {
+            "year" : 2555,
             "id" : "01005101",
             "thainame" : "เทคโนโลยีเกษตรสมัยใหม่",
             "engname" : "Modern Agriculture Technology",
@@ -1131,6 +1288,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01054101",
             "thainame" : "อุตสาหกรรมเกษตรทั่วไป",
             "engname" : "General Agro-Industry",
@@ -1138,6 +1296,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01173151",
             "thainame" : "เอดส์ศึกษา",
             "engname" : "AIDS Education",
@@ -1145,6 +1304,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01200101",
             "thainame" : "การคิดเชิงนวัตกรรม",
             "engname" : "Innovative Thinking",
@@ -1152,6 +1312,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01204111",
             "thainame" : "คอมพิวเตอร์และการโปรแกรม",
             "engname" : "Computers and Programming",
@@ -1159,6 +1320,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01251101",
             "thainame" : "การเพาะเลี้ยงสัตว์น้ำทั่วไป",
             "engname" : "General Aquaculture",
@@ -1166,6 +1328,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01251102",
             "thainame" : "การเลี้ยงปลาสวยงาม",
             "engname" : "Ornamental Fish Culture",
@@ -1173,6 +1336,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01254201",
             "thainame" : "สาหร่ายและพรรณไม้น้ำเพื่อสุขภาพ",
             "engname" : "Algae and Aquatic Plants for Health",
@@ -1180,6 +1344,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01254202",
             "thainame" : "ผลิตภัณฑ์เสริมอาหารจากผลิตภัณฑ์ประมง",
             "engname" : "Dietary Supplements from Fishery Products",
@@ -1187,6 +1352,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01255101",
             "thainame" : "มนุษย์กับทะเล",
             "engname" : "Man and Sea",
@@ -1194,6 +1360,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01301201",
             "thainame" : "การอนุรักษ์ทรัพยากรและสิ่งแวดล้อม",
             "engname" : "Resources and Environmental Conservation",
@@ -1201,6 +1368,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01401201",
             "thainame" : "พืช มนุษย์และสิ่งแวดล้อม",
             "engname" : "Plants, Man and Environment",
@@ -1208,6 +1376,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01404101",
             "thainame" : "วิทยาศาสตร์ทั่วไป",
             "engname" : "General Science",
@@ -1215,6 +1384,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01418111",
             "thainame" : "การใช้งานคอมพิวเตอร์",
             "engname" : "Computer Applications",
@@ -1222,6 +1392,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01418112",
             "thainame" : "คอมพิวเตอร์เบื้องต้น",
             "engname" : "Introduction to Computer",
@@ -1229,6 +1400,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01418113",
             "thainame" : "เทคโนโลยีคอมพิวเตอร์และสารสนเทศ",
             "engname" : "Computer and Information Technology",
@@ -1236,6 +1408,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01420101",
             "thainame" : "ฟิสิกส์ในชีวิตประจำวัน",
             "engname" : "Physics in Everyday life",
@@ -1243,6 +1416,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01420102",
             "thainame" : "ฟิสิกส์พื้นฐานสำหรับการแสดง",
             "engname" : "Basic Theater Physics",
@@ -1250,6 +1424,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01420201",
             "thainame" : "อัญมณีและเครื่องประดับ",
             "engname" : "Gems and Jewelry",
@@ -1257,6 +1432,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01421211",
             "thainame" : "รังสี  ชีวิต และสิ่งแวดล้อม",
             "engname" : "Radiation, Life and Environment",
@@ -1264,6 +1440,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01422101",
             "thainame" : "สถิติประยุกต์เบื้องต้น",
             "engname" : "Elementary Applied Statistics",
@@ -1271,6 +1448,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01424201",
             "thainame" : "ชีวิตกับสิ่งแวดล้อม",
             "engname" : "Life and Environmental Science",
@@ -1278,6 +1456,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01503101",
             "thainame" : "การจัดการสุขภาพเบื้องต้นในปลาสวยงาม",
             "engname" : "Fundamental Health Management in Ornamental Fish",
@@ -1285,6 +1464,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01507101",
             "thainame" : "การจัดการสุขภาพเบื้องต้นในสุนัข",
             "engname" : "Fundamental Health Management in Dogs",
@@ -1292,6 +1472,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01507102",
             "thainame" : "การจัดการสุขภาพเบื้องต้นในแมว",
             "engname" : "Fundamental Health Management in Cat",
@@ -1299,6 +1480,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999011",
             "thainame" : "อาหารเพื่อมนุษยชาติ",
             "engname" : "Food for Mankind",
@@ -1306,6 +1488,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999012",
             "thainame" : "สุขภาพเพื่อชีวิต",
             "engname" : "Health for Life",
@@ -1313,6 +1496,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999013",
             "thainame" : "การจัดการสารสนเทศยุคใหม่ในชีวิตประจำวัน",
             "engname" : "New Age Information Management in Everyday Life",
@@ -1320,6 +1504,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999211",
             "thainame" : "คณิตศาสตร์และคอมพิวเตอร์ในชีวิตประจำวัน",
             "engname" : "Mathematics and Computers in Everyday Life",
@@ -1327,6 +1512,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999212",
             "thainame" : "แนวคิดทางวิทยาศาสตร์กับปรัชญา",
             "engname" : "Concepts of Sciences and Philosophy",
@@ -1334,6 +1520,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999213",
             "thainame" : "สิ่งแวดล้อม เทคโนโลยีและชีวิต",
             "engname" : "Environment, Technology and Life",
@@ -1341,6 +1528,7 @@
             "group" : "วิทยาศาสตร์และคณิตศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01376101",
             "thainame" : "วรรณกรรมกับชีวิต",
             "engname" : "Literature and Life",
@@ -1348,6 +1536,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01386121",
             "thainame" : "สังคีตนิยม",
             "engname" : "Music Appreciation",
@@ -1355,6 +1544,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01387101",
             "thainame" : "ศิลปะการอยู่ร่วมกับผู้อื่น",
             "engname" : "The Art of Living with Others",
@@ -1362,6 +1552,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01387102",
             "thainame" : "ปรัชญาทั่วไป",
             "engname" : "General Philosophy",
@@ -1369,6 +1560,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01387103",
             "thainame" : "ปรัชญาเศรษฐกิจพอเพียงกับพุทธศาสนา",
             "engname" : "Philosophy of Sufficiency Economics and Buddhism",
@@ -1376,6 +1568,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01387104",
             "thainame" : "ปรัชญาและศาสนาในประเทศอาเซียน",
             "engname" : "Philosophy and  Religion  in  Asean Countries",
@@ -1383,6 +1576,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999031",
             "thainame" : "มรดกอารยธรรมโลก",
             "engname" : "The Heritage of World Civilizations",
@@ -1390,6 +1584,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999032",
             "thainame" : "ไทยศึกษา",
             "engname" : "Thai Studies",
@@ -1397,6 +1592,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999033",
             "thainame" : "ศิลปะการดำเนินชีวิต",
             "engname" : "Arts of Living",
@@ -1404,6 +1600,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999034",
             "thainame" : "ศิลปวิจักษณ์",
             "engname" : "Art Perception",
@@ -1411,6 +1608,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999035",
             "thainame" : "วัฒนธรรมดนตรีกับชีวิต",
             "engname" : "Music Culture in Life",
@@ -1418,6 +1616,7 @@
             "group" : "มนุษยศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01001317",
             "thainame" : "พระมหากษัตริย์และผู้นำประเทศกับการพัฒนาภาคการเกษตร",
             "engname" : "Kings and State Leaders on Agricultural Sector Development",
@@ -1425,6 +1624,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01119407",
             "thainame" : "การจัดการและการพัฒนาธุรกิจการเกษตร",
             "engname" : "Agribusiness Management and Development",
@@ -1432,6 +1632,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01125101",
             "thainame" : "สหกรณ์เบื้องต้น",
             "engname" : "Introduction to Cooperative Sciences",
@@ -1439,6 +1640,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01132101",
             "thainame" : "ผู้ประกอบการรุ่นใหม่",
             "engname" : "Modern Entrepreneur",
@@ -1446,6 +1648,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01371111",
             "thainame" : "สื่อสารสนเทศ",
             "engname" : "Information Media",
@@ -1453,6 +1656,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01371112",
             "thainame" : "การรู้สารสนเทศ",
             "engname" : "Information Literacy",
@@ -1460,6 +1664,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01371421",
             "thainame" : "การเขียนบทความทางวิชาการ",
             "engname" : "Technical Research Writing",
@@ -1467,6 +1672,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01453101",
             "thainame" : "ความรู้เบื้องต้นเกี่ยวกับกฎหมายทั่วไป",
             "engname" : "Introduction to Law",
@@ -1474,6 +1680,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01453102",
             "thainame" : "กฎหมายในชีวิตประจำวัน",
             "engname" : "Law in Everyday Life",
@@ -1481,6 +1688,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01455101",
             "thainame" : "การเมืองโลกในชีวิตประจำวัน",
             "engname" : "World Politics in Daily Life",
@@ -1488,6 +1696,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01459101",
             "thainame" : "จิตวิทยาเพื่อชีวิตสมัยใหม่",
             "engname" : "Psychology for Modern Life",
@@ -1495,6 +1704,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01460101",
             "thainame" : "สังคมและวัฒนธรรมไทยร่วมสมัย",
             "engname" : "Contemporary Thai Society and Culture",
@@ -1502,6 +1712,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999041",
             "thainame" : "เศรษฐศาสตร์เพื่อการดำเนินชีวิตที่ดี",
             "engname" : "Economics for Better Living",
@@ -1509,6 +1720,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999043",
             "thainame" : "การคิดสร้างสรรค์เพื่อการจัดการคุณค่า",
             "engname" : "Creativity for Value Management",
@@ -1516,6 +1728,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01999141",
             "thainame" : "มนุษย์กับสังคม",
             "engname" : "Man and Society",
@@ -1523,6 +1736,7 @@
             "group" : "สังคมศาสตร์"
         },
         {
+            "year" : 2555,
             "id" : "01354311",
             "thainame" : "ภาษาเขมร I",
             "engname" : "Khmer I",
@@ -1530,6 +1744,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01354312",
             "thainame" : "ภาษาเขมร II",
             "engname" : "Khmer II",
@@ -1537,6 +1752,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01354411",
             "thainame" : "ภาษาเขมร III",
             "engname" : "Khmer III",
@@ -1544,6 +1760,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355111",
             "thainame" : "ภาษาอังกฤษพื้นฐาน I",
             "engname" : "Foundation English I",
@@ -1551,6 +1768,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355112",
             "thainame" : "ภาษาอังกฤษพื้นฐาน II",
             "engname" : "Foundation English II",
@@ -1558,6 +1776,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355113",
             "thainame" : "ภาษาอังกฤษพื้นฐาน III",
             "engname" : "Foundation English III",
@@ -1565,6 +1784,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355114",
             "thainame" : "ภาษาอังกฤษสำหรับนิสิตเตรียมแพทย์ I",
             "engname" : "English for Pre-Medical Students I",
@@ -1572,6 +1792,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355115",
             "thainame" : "ภาษาอังกฤษสำหรับนิสิตเตรียมแพทย์ II",
             "engname" : "English for Pre-Medical Students II",
@@ -1579,6 +1800,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355201",
             "thainame" : "การอ่านภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Reading",
@@ -1586,6 +1808,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355202",
             "thainame" : "การเขียนภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Writing",
@@ -1593,6 +1816,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355203",
             "thainame" : "โครงสร้างภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Structure",
@@ -1600,6 +1824,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355204",
             "thainame" : "การฟัง-การพูดภาษาอังกฤษเบื้องต้น",
             "engname" : "Fundamental English Listening-Speaking",
@@ -1607,6 +1832,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355205",
             "thainame" : "การอ่านภาษาอังกฤษด้านสื่อสารมวลชน",
             "engname" : "Reading for Mass Communication in English",
@@ -1614,6 +1840,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355206",
             "thainame" : "อังกฤษวิชาการ",
             "engname" : "Technical English",
@@ -1621,6 +1848,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355207",
             "thainame" : "การเขียนโต้ตอบภาษาอังกฤษ",
             "engname" : "English Correspondence",
@@ -1628,6 +1856,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355208",
             "thainame" : "ภาษาอังกฤษจากเพลง",
             "engname" : "English through Songs",
@@ -1635,6 +1864,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355209",
             "thainame" : "ภาษาอังกฤษเพื่อการสื่อสารในงานอาชีพ",
             "engname" : "Communicative English for Careers",
@@ -1642,6 +1872,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355301",
             "thainame" : "ภาษาอังกฤษเพื่อนักกีฬาและผู้ตัดสิน",
             "engname" : "English for Athletes and Referees",
@@ -1649,6 +1880,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355302",
             "thainame" : "การเขียนรายงานภาษาอังกฤษ",
             "engname" : "Report Writing in English",
@@ -1656,6 +1888,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355303",
             "thainame" : "ภาษาอังกฤษเพื่อการสมัครงาน",
             "engname" : "English for Employment",
@@ -1663,6 +1896,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355304",
             "thainame" : "ภาษาอังกฤษสำหรับอุตสาหกรรมการท่องเที่ยว",
             "engname" : "English for Tourism Industry",
@@ -1670,6 +1904,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01355305",
             "thainame" : "ภาษาอังกฤษเพื่อการส่งออก",
             "engname" : "English for Exporting",
@@ -1677,6 +1912,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01356101",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น I",
             "engname" : "Elementary French I",
@@ -1684,6 +1920,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01356102",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น II",
             "engname" : "Elementary French II",
@@ -1691,6 +1928,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01356103",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น III",
             "engname" : "Elementary French III",
@@ -1698,6 +1936,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01356104",
             "thainame" : "ภาษาฝรั่งเศสเบื้องต้น IV",
             "engname" : "Elementary French IV",
@@ -1705,6 +1944,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01357111",
             "thainame" : "ภาษาเยอรมันเบื้องต้น I",
             "engname" : "Elementary German I",
@@ -1712,6 +1952,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01357112",
             "thainame" : "ภาษาเยอรมันเบื้องต้น II",
             "engname" : "Elementary German II",
@@ -1719,6 +1960,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01357113",
             "thainame" : "ภาษาเยอรมันเบื้องต้น III",
             "engname" : "Elementary German III",
@@ -1726,6 +1968,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01357114",
             "thainame" : "ภาษาเยอรมันเบื้องต้น IV",
             "engname" : "Elementary German IV",
@@ -1733,6 +1976,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01357232",
             "thainame" : "ความรู้เบื้องต้นเกี่ยวกับศิลปะและดนตรีเยอรมัน",
             "engname" : "Introduction to German Art and Music",
@@ -1740,6 +1984,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01358101",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น I",
             "engname" : "Elementary Japanese I",
@@ -1747,6 +1992,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01358102",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น II",
             "engname" : "Elementary Japanese II",
@@ -1754,6 +2000,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01358103",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น III",
             "engname" : "Elementary Japanese III",
@@ -1761,6 +2008,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01358104",
             "thainame" : "ภาษาญี่ปุ่นเบื้องต้น IV",
             "engname" : "Elementary Japanese IV",
@@ -1768,6 +2016,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01361101",
             "thainame" : "การใช้ภาษาไทยเบื้องต้น",
             "engname" : "Introductory Thai Usage",
@@ -1775,6 +2024,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01361102",
             "thainame" : "การเขียนภาษาไทยเชิงปฏิบัติ",
             "engname" : "Thai  Practical  Writing",
@@ -1782,6 +2032,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01361222",
             "thainame" : "การอ่านภาษาไทยเชิงวิจารณ์",
             "engname" : "Thai  Critical  Reading",
@@ -1789,6 +2040,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01362101",
             "thainame" : "ภาษาจีน I",
             "engname" : "Chinese I",
@@ -1796,6 +2048,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01362102",
             "thainame" : "ภาษาจีน II",
             "engname" : "Chinese II",
@@ -1803,6 +2056,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01362201",
             "thainame" : "ภาษาจีน III",
             "engname" : "Chinese III",
@@ -1810,6 +2064,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01362202",
             "thainame" : "ภาษาจีน IV",
             "engname" : "Chinese IV",
@@ -1817,6 +2072,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01362301",
             "thainame" : "ภาษาจีน V",
             "engname" : "Chinese V",
@@ -1824,6 +2080,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01366311",
             "thainame" : "ภาษาลาว I",
             "engname" : "Laotian I",
@@ -1831,6 +2088,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01366312",
             "thainame" : "ภาษาลาว II",
             "engname" : "Laotian II",
@@ -1838,6 +2096,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01366411",
             "thainame" : "ภาษาลาว III",
             "engname" : "Laotian III",
@@ -1845,6 +2104,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01367311",
             "thainame" : "ภาษาพม่า I",
             "engname" : "Myanmar Language I",
@@ -1852,6 +2112,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01367312",
             "thainame" : "ภาษาพม่า II",
             "engname" : "Myanmar Language II",
@@ -1859,6 +2120,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01367411",
             "thainame" : "ภาษาพม่า III",
             "engname" : "Myanmar Language III",
@@ -1866,6 +2128,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01372101",
             "thainame" : "สัทศาสตร์ภาษาอังกฤษ",
             "engname" : "English Phonetics",
@@ -1873,6 +2136,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01372201",
             "thainame" : "โครงสร้างของคำในภาษาอังกฤษ",
             "engname" : "Word Structure in English",
@@ -1880,6 +2144,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01372211",
             "thainame" : "มนุษย์กับภาษา",
             "engname" : "Man and Language",
@@ -1887,6 +2152,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01395101",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร I",
             "engname" : "Communicative Korean I",
@@ -1894,6 +2160,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01395102",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร II",
             "engname" : "Communicative Korean II",
@@ -1901,6 +2168,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01395103",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร III",
             "engname" : "Communicative Korean III",
@@ -1908,6 +2176,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01395104",
             "thainame" : "ภาษาเกาหลีเพื่อการสื่อสาร IV",
             "engname" : "Communicative Korean IV",
@@ -1915,6 +2184,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01395105",
             "thainame" : "การอ่านและรายงานภาษาเกาหลี",
             "engname" : "Korean Reading and Oral Report",
@@ -1922,6 +2192,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01395106",
             "thainame" : "การฟัง-พูดภาษาเกาหลี",
             "engname" : "Korean Listening and Speaking",
@@ -1929,6 +2200,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01398101",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร I",
             "engname" : "Communicative Malayu I",
@@ -1936,6 +2208,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01398102",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร II",
             "engname" : "Communicative Malayu II",
@@ -1943,6 +2216,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01398103",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร III",
             "engname" : "Communicative Malayu III",
@@ -1950,6 +2224,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01398104",
             "thainame" : "ภาษามลายูเพื่อการสื่อสาร IV",
             "engname" : "Communicative Malayu IV",
@@ -1957,6 +2232,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01398105",
             "thainame" : "การอ่านภาษามลายู",
             "engname" : "Malayu Reading",
@@ -1964,6 +2240,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01398106",
             "thainame" : "การฟัง-พูดภาษามลายู",
             "engname" : "Malayu Listening and Speaking",
@@ -1971,6 +2248,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01399101",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร I",
             "engname" : "Communicative Vietnamese I",
@@ -1978,6 +2256,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01399102",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร II",
             "engname" : "Communicative Vietnamese II",
@@ -1985,6 +2264,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01399103",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร III",
             "engname" : "Communicative Vietnamese III",
@@ -1992,6 +2272,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01399104",
             "thainame" : "ภาษาเวียดนามเพื่อการสื่อสาร IV",
             "engname" : "Communicative Vietnamese IV",
@@ -1999,6 +2280,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01399105",
             "thainame" : "การอ่านภาษาเวียดนาม",
             "engname" : "Vietnamese Reading",
@@ -2006,6 +2288,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01399106",
             "thainame" : "การฟัง-พูดภาษาเวียดนาม",
             "engname" : "Vietnamese Listening and Speaking",
@@ -2013,6 +2296,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01999021",
             "thainame" : "ภาษาไทยเพื่อการสื่อสาร",
             "engname" : "Thai Language for Communication",
@@ -2020,6 +2304,7 @@
             "group" : "ภาษา"
         },
         {
+            "year" : 2555,
             "id" : "01175111",
             "thainame" : "กรีฑาลู่-ลาน",
             "engname" : "Track and Field",
@@ -2027,6 +2312,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175112",
             "thainame" : "แบดมินตัน",
             "engname" : "Badminton",
@@ -2034,6 +2320,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175113",
             "thainame" : "เทนนิส",
             "engname" : "Lawn Tennis",
@@ -2041,6 +2328,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175114",
             "thainame" : "เทเบิลเทนนิส",
             "engname" : "Table-Tennis",
@@ -2048,6 +2336,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175115",
             "thainame" : "ยิงปืน",
             "engname" : "Shooting",
@@ -2055,6 +2344,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175116",
             "thainame" : "ยิมนาสติก",
             "engname" : "Gymnastics",
@@ -2062,6 +2352,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175117",
             "thainame" : "ยิงธนู",
             "engname" : "Archery",
@@ -2069,6 +2360,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175121",
             "thainame" : "บาสเกตบอล",
             "engname" : "Basketball",
@@ -2076,6 +2368,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175122",
             "thainame" : "ฟุตบอล",
             "engname" : "Soccer",
@@ -2083,6 +2376,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175123",
             "thainame" : "วอลเลย์บอล",
             "engname" : "Volleyball",
@@ -2090,6 +2384,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175124",
             "thainame" : "แฮนด์บอล",
             "engname" : "Handball",
@@ -2097,6 +2392,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175125",
             "thainame" : "ซอฟท์บอล",
             "engname" : "Softball",
@@ -2104,6 +2400,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175126",
             "thainame" : "ตะกร้อ",
             "engname" : "Takraw",
@@ -2111,6 +2408,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175127",
             "thainame" : "ฮอกกี้",
             "engname" : "Hockey",
@@ -2118,6 +2416,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175128",
             "thainame" : "รักบี้ฟุตบอล",
             "engname" : "Rugby Football",
@@ -2125,6 +2424,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175129",
             "thainame" : "ฟุตซอล",
             "engname" : "Futsal",
@@ -2132,6 +2432,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175131",
             "thainame" : "ว่ายน้ำ",
             "engname" : "Swimming",
@@ -2139,6 +2440,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175132",
             "thainame" : "การช่วยคนตกน้ำ",
             "engname" : "Lifesaving",
@@ -2146,6 +2448,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175133",
             "thainame" : "กระโดดน้ำ",
             "engname" : "Diving",
@@ -2153,6 +2456,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175134",
             "thainame" : "โปโลน้ำ",
             "engname" : "Water Polo",
@@ -2160,6 +2464,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175141",
             "thainame" : "การเต้นรำแบบแอโรบิก",
             "engname" : "Aerobic Dance",
@@ -2167,6 +2472,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175142",
             "thainame" : "โฟล์คด๊านซ์",
             "engname" : "Folk Dance",
@@ -2174,6 +2480,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175143",
             "thainame" : "ลีลาศ",
             "engname" : "Social Dance",
@@ -2181,6 +2488,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175144",
             "thainame" : "นาฏศิลป์",
             "engname" : "Thai Classical Dance",
@@ -2188,6 +2496,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175151",
             "thainame" : "ดาบไทย",
             "engname" : "Thai Fencing",
@@ -2195,6 +2504,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175152",
             "thainame" : "ดาบสากล",
             "engname" : "Fencing",
@@ -2202,6 +2512,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175153",
             "thainame" : "มวยไทย",
             "engname" : "Thai Boxing",
@@ -2209,6 +2520,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175154",
             "thainame" : "มวยสากล",
             "engname" : "Boxing",
@@ -2216,6 +2528,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175155",
             "thainame" : "ยูโด",
             "engname" : "Judo",
@@ -2223,6 +2536,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175156",
             "thainame" : "ไอกิโด",
             "engname" : "Aikido",
@@ -2230,6 +2544,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175157",
             "thainame" : "กระบี่กระบอง",
             "engname" : "Sword and Pole Fighting",
@@ -2237,6 +2552,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175158",
             "thainame" : "มวยปล้ำ",
             "engname" : "Wrestling",
@@ -2244,6 +2560,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175159",
             "thainame" : "คาราเต้",
             "engname" : "Karate",
@@ -2251,6 +2568,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175161",
             "thainame" : "บริดจ์",
             "engname" : "Contract Bridge",
@@ -2258,6 +2576,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175162",
             "thainame" : "โบว์ลิ่ง",
             "engname" : "Bowling",
@@ -2265,6 +2584,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175163",
             "thainame" : "กอล์ฟ",
             "engname" : "Golf",
@@ -2272,6 +2592,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175164",
             "thainame" : "จักรยาน",
             "engname" : "Cycling",
@@ -2279,6 +2600,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175165",
             "thainame" : "ยกน้ำหนัก",
             "engname" : "Weight Training",
@@ -2286,6 +2608,7 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175166",
             "thainame" : "เทควันโด",
             "engname" : "Taekwondo",
@@ -2293,11 +2616,11 @@
             "group" : "พลศึกษา"
         },
         {
+            "year" : 2555,
             "id" : "01175168",
             "thainame" : "การวิ่งเหยาะเพื่อสุขภาพ",
             "engname" : "Jogging for Health",
             "credit" : 1,
             "group" : "พลศึกษา"
         }
-    ]
-}
+]

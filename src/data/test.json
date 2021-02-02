@@ -1,0 +1,32 @@
+{
+    "year" : 2559,
+    "SubjectDetail" : [
+        {
+            "id" : "01175111",
+            "thainame" : "กรีฑาลู่-ลานเพื่อสุขภาพ",
+            "engname" : "Track and Field for Health",
+            "credit" : 1,
+            "group" : "อยู่ดีมีสุข"
+        }
+    ]    
+}
+{
+    "year" : 2559,
+    "SubjectDetail" : [
+        {
+            "id" : "01175112",
+            "thainame" : "แบดมินตันเพื่อสุขภาพ",
+            "engname" : "Badminton for Health",
+            "credit" : 1,
+            "group" : "อยู่ดีมีสุข"
+        }
+    ]    
+}
+{
+    "year" : 2559,
+    "id" : "01175112",
+    "thainame" : "แบดมินตันเพื่อสุขภาพ",
+    "engname" : "Badminton for Health",
+    "credit" : 1,
+    "group" : "อยู่ดีมีสุข"
+}
