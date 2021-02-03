@@ -105,6 +105,11 @@ app.get("/test", async (req, res) => {
   res.status(200).send(subject)
 });
 
+app.post("/search", async (req, res) => {
+  const json = JSON.stringify(req.body);
+  console.log(json)
+  res.status(200).send({json});
+})
 
 
 const PORT = process.env.PORT || 8000;
