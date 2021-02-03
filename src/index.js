@@ -105,10 +105,20 @@ app.get("/test", async (req, res) => {
   res.status(200).send(subject)
 });
 
-app.post("/search", async (req, res) => {
-  const json = JSON.stringify(req.body);
-  console.log(json)
-  res.status(200).send({json});
+app.post("/search", decodeToken, async (req, res) => {
+  // console.log("https://myapi.ku.th/enroll/searchSubject?query=".concat(req.body.subjectCode))
+  try {
+    const response = await axios.get("https://myapi.ku.th/enroll/searchSubject?query=".concat(req.body.subjectCode), {
+      headers: {
+        "Content-Type": "application/json",
+        "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+        "x-access-token": req.headers.authorization.split(" ")[1],
+      },
+    });
+    res.status(200).send({response: response.data});
+  } catch (error) {
+    res.status(500).send('error');
+  }
 })
 
 
