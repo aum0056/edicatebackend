@@ -1,2347 +1,1999 @@
 [
   {
     "year": 2559,
-    "majorCode": "B01",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "B02",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "B03",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "B04",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "B05",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "N01",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "N02",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "N03",
-    "allhapinessCredit": 4,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 3,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["0135", "01362", "01367", "01395", "01398", "01399"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2559,
-    "majorCode": "N04",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361101", "01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["0135", "01362", "01367", "01395", "01398", "01399"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 6
-  },
-  {
-    "year": 2559,
-    "majorCode": "N05",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 6
-  },
-  {
-    "year": 2559,
     "majorCode": "E03",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01361", "01999021", "01999022"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E05",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E06",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E08",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E09",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E10",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E11",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
-    "majorCode": "E013",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "majorCode": "E13",
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E14",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E16",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E17",
-    "allhapinessCredit": 4,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 3,
-    "allEnterpreneurCredit": 5,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 4,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 5,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01361", "01999021", "01999022"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E18",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E21",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 3,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 6,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E22",
-    "allhapinessCredit": 3,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 2,
-    "allEnterpreneurCredit": 6,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361", "01999021", "01999022"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 3,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 6,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E26",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E27",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2559,
     "majorCode": "E28",
-    "allhapinessCredit": 6,
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    },
-    "hapinessCredit": 5,
-    "allEnterpreneurCredit": 3,
-    "allLanguageCredit": 13,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "informationCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111", "01418", "01999013", "01999023"]
-    },
-    "allCitizenCredit": 5,
-    "knowledgeCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01999111"]
-    },
-    "citizenCredit": 3,
-    "allAestheticCredit": 3
-  },
-  {
-    "year": 2555,
-    "majorCode": "B01",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999212"]
-    },
-    "scienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 7,
-    "forceSocialCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "socialCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "B02",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999212"]
-    },
-    "scienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 7,
-    "forceSocialCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "socialCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "B03",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999212"]
-    },
-    "scienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 7,
-    "forceSocialCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "socialCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "B04",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999212"]
-    },
-    "scienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 7,
-    "forceSocialCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "socialCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "B05",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999212"]
-    },
-    "scienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 7,
-    "forceSocialCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01371111"]
-    },
-    "socialCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175131"]
-    },
-    "physicalCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "N01",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 18,
-    "thaiCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 9,
-      "musthaveCredit": [
-        "01354",
-        "01356",
-        "01357",
-        "01358",
-        "01362",
-        "01366",
-        "01367",
-        "01395",
-        "01398",
-        "01399"
-      ]
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "N02",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 18,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361111", "01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 6,
-      "musthaveCredit": [
-        "01354",
-        "01356",
-        "01357",
-        "01358",
-        "01362",
-        "01366",
-        "01367",
-        "01395",
-        "01398",
-        "01399"
-      ]
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "N03",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 18,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01361111", "01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 6,
-      "musthaveCredit": [
-        "01354",
-        "01356",
-        "01357",
-        "01358",
-        "01362",
-        "01366",
-        "01367",
-        "01395",
-        "01398",
-        "01399"
-      ]
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "N04",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 15,
-    "thaiCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 6,
-      "musthaveCredit": [
-        "01354",
-        "01356",
-        "01357",
-        "01358",
-        "01362",
-        "01366",
-        "01367",
-        "01395",
-        "01398",
-        "01399"
-      ]
-    },
-    "allSocialCredit": 6,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
-  },
-  {
-    "year": 2555,
-    "majorCode": "N05",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01418113", "01999013"]
-    },
-    "scienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01301201", "01999012", "01999212"]
-    },
-    "allLanguageCredit": 15,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01355206"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 9,
-      "musthaveCredit": [
-        "01355201",
-        "01355202",
-        "01355204",
-        "01355207",
-        "01355209",
-        "01355303"
-      ]
-    },
-    "allSocialCredit": 6,
-    "forceSocialCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01459101"]
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": [
-        "01450101",
-        "01453101",
-        "01453102",
-        "01999041",
-        "019990413",
-        "01999141"
-      ]
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": [
-        "01387101",
-        "01387121",
-        "01390231",
-        "01999031",
-        "01999032",
-        "01999033"
-      ]
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "อยู่ดีมีสุข",
+        "credit": 6,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "ศาสตร์แห่งผู้ประกอบการ",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษากับการสื่อสาร",
+        "credit": 13,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          },
+          {
+            "name": "วิชาสารสนเทศ/คอมพิวเตอร์",
+            "credit": 1,
+            "subjectId": ["01371111", "01418", "01999013", "01999023"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลเมืองไทยและพลเมืองโลก",
+        "credit": 5,
+        "fixedSubject": [
+          {
+            "name": "ศาสตร์แห่งแผ่นดิน",
+            "credit": 2,
+            "subjectId": ["01999111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สุนทรียศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E03",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E05",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E06",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E08",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E09",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01200101"]
-    },
-    "scienceMathCredit": {
-      "credit": 9,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E10",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E11",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E13",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E14",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E16",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E17",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 1,
-      "musthaveCredit": ["01200101"]
-    },
-    "scienceMathCredit": {
-      "credit": 9,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "anotherLanguageCredit": {
-      "credit": 9,
-      "musthaveCredit": [
-        "01354",
-        "01355",
-        "01356",
-        "01357",
-        "01358",
-        "01362",
-        "01366",
-        "01367",
-        "01395",
-        "01398",
-        "01399"
-      ]
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาต่างประเทศ",
+            "credit": 9,
+            "subjectId": [
+              "01354",
+              "01356",
+              "01357",
+              "01358",
+              "01362",
+              "01366",
+              "01367",
+              "01395",
+              "01398",
+              "01399"
+            ]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E18",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E21",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E22",
-    "allScienceMathCredit": 6,
-    "forceScienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01418113"]
-    },
-    "scienceMathCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 15,
-    "thaiCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 4,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 4,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "เทคโนโลยีคอมพิวเตอร์และสารสนเทศ",
+            "credit": 3,
+            "subjectId": ["01418113"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 4,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E26",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E27",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   },
   {
     "year": 2555,
     "majorCode": "E28",
-    "allScienceMathCredit": 10,
-    "forceScienceMathCredit": {
-      "credit": 4,
-      "musthaveCredit": ["01200101", "01204111"]
-    },
-    "scienceMathCredit": {
-      "credit": 6,
-      "musthaveCredit": []
-    },
-    "allLanguageCredit": 12,
-    "thaiCredit": {
-      "credit": 3,
-      "musthaveCredit": ["01999021"]
-    },
-    "englishCredit": {
-      "credit": 9,
-      "musthaveCredit": ["01355"]
-    },
-    "anotherLanguageCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "allSocialCredit": 3,
-    "forceSocialCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "socialCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allHumanCredit": 3,
-    "forceHumanCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "humanCredit": {
-      "credit": 3,
-      "musthaveCredit": []
-    },
-    "allPhysicalCredit": 2,
-    "forcephysicalCredit": {
-      "credit": 0,
-      "musthaveCredit": []
-    },
-    "physicalCredit": {
-      "credit": 2,
-      "musthaveCredit": ["01175"]
-    }
+    "group": [
+      {
+        "nameGroup": "วิทยาศาสตร์และคณิตศาสตร์",
+        "credit": 10,
+        "fixedSubject": [
+          {
+            "name": "การคิดเชิงนวัตกรรม",
+            "credit": 1,
+            "subjectId": ["01200101"]
+          },
+          {
+            "name": "คอมพิวเตอร์และการโปรแกรม",
+            "credit": 3,
+            "subjectId": ["01204111"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "สังคมศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      },
+      {
+        "nameGroup": "ภาษา",
+        "credit": 12,
+        "fixedSubject": [
+          {
+            "name": "ภาษาไทย",
+            "credit": 3,
+            "subjectId": ["01999021"]
+          },
+          {
+            "name": "ภาษาอังกฤษ",
+            "credit": 9,
+            "subjectId": ["01355"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "พลศึกษา",
+        "credit": 2,
+        "fixedSubject": [
+          {
+            "name": "กิจกรรมพลศึกษา",
+            "credit": 1,
+            "subjectId": ["01175"]
+          }
+        ]
+      },
+      {
+        "nameGroup": "มนุษยศาสตร์",
+        "credit": 3,
+        "fixedSubject": []
+      }
+    ]
   }
 ]
