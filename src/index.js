@@ -7,7 +7,10 @@ import jwt from "jsonwebtoken";
 import database from "./database";
 import Subject from "./model/Subject";
 import Openingsubject from "./model/Openingsubject";
+import Genedcourse from "./model/GenEdCourse"
 import subjectData from "./data/subjectData.json";
+import CourseDetail from "./data/CourseDetail.json"
+import GenEdCourse from "./data/GenEdCourse.json"
 
 dotenv.config();
 
@@ -116,11 +119,19 @@ app.get("/addsubjectopening", async (req, res) => {
     console.log(error)
   }
 });
+app.get("/addgenedcourse", async (req, res) => {
+  GenEdCourse.map(async (x) => {
+    const genEdCourse = new Genedcourse(x)
+    await genEdCourse.save()
+  })
+  res.status(200).send('complete')
+});
 app.get("/test", async (req, res) => {
   // const subject = Subject.()
-  const openingsubject = await Openingsubject.find({id : /^01001/})
+  // const openingsubject = await Openingsubject.find({id : /^01001/})
   // console.log(openingsubject)
-  res.status(200).send(openingsubject)
+  const test = GenEdCourse
+  res.status(200).send(test)
 });
 
 app.post("/search", decodeToken, async (req, res) => {
