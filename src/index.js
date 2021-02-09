@@ -130,6 +130,8 @@ app.get("/test", async (req, res) => {
   // const subject = Subject.()
   // const openingsubject = await Openingsubject.find({id : /^01001/})
   // console.log(openingsubject)
+  const course = await Genedcourse.find({year: 2559})
+  console.log(course)
   const test = GenEdCourse
   res.status(200).send(test)
 });
@@ -138,7 +140,7 @@ app.post("/search", decodeToken, async (req, res) => {
   try {
     const startYear = parseInt(req.user.idcode/100000000);
     let studentYear = (startYear >= 60) ? 2559 : 2555
-    const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.body.subjectCode }}, { thainame :{ $regex : req.body.subjectCode }}, { engname :{ $regex : req.body.subjectCode, $options: "i" }}]},{year: studentYear}]})
+    const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.body.subjectCode }}, { thainame :{ $regex : req.body.subjectCode }}, { engname :{ $regex : req.body.subjectCode, $options: "i" }}]},{year: studentYear}]}).sort()
     res.status(200).send(openingsubject)
   } catch (error) {
     res.status(500).send('error');
@@ -148,7 +150,18 @@ app.post("/search", decodeToken, async (req, res) => {
 app.post("/searchbygroup", async (req, res) => {
   try {
     const openingsubject = await Openingsubject.find({group: req.body.subjectGroup})
-    res.status(200).send({openingsubject});
+    res.status(200).send(openingsubject);
+  } catch (error) {
+    res.status(500).send('error');
+  }
+})
+
+app.post("/genedcourse", decodeToken, async (req, res) => {
+  try {
+    const startYear = parseInt(req.user.idcode/100000000);
+    let studentYear = (startYear >= 60) ? 2559 : 2555
+    const course = await Genedcourse.find({year: studentYear})
+    res.status(200).send(course)
   } catch (error) {
     res.status(500).send('error');
   }
