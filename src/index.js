@@ -140,7 +140,7 @@ app.post("/search", decodeToken, async (req, res) => {
   try {
     const startYear = parseInt(req.user.idcode/100000000);
     let studentYear = (startYear >= 60) ? 2559 : 2555
-    const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.body.subjectCode }}, { thainame :{ $regex : req.body.subjectCode }}, { engname :{ $regex : req.body.subjectCode, $options: "i" }}]},{year: studentYear}]}).sort()
+    const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.body.subjectCode }}, { thainame :{ $regex : req.body.subjectCode }}, { engname :{ $regex : req.body.subjectCode, $options: "i" }}]},{year: studentYear}]})
     res.status(200).send(openingsubject)
   } catch (error) {
     res.status(500).send('error');
