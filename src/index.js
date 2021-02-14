@@ -132,7 +132,6 @@ app.get("/test", async (req, res) => {
   // const openingsubject = await Openingsubject.find({id : /^01001/})
   // console.log(openingsubject)
   const course = await Genedcourse.find({year: 2559})
-  console.log(course)
   const test = GenEdCourse
   res.status(200).send(test)
 });
