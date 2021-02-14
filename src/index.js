@@ -8,6 +8,7 @@ import database from "./database";
 import Subject from "./model/Subject";
 import Openingsubject from "./model/Openingsubject";
 import Genedcourse from "./model/GenEdCourse"
+import Coursedetail from "./model/CourseDetail"
 import subjectData from "./data/subjectData.json";
 import CourseDetail from "./data/CourseDetail.json"
 import GenEdCourse from "./data/GenEdCourse.json"
@@ -135,6 +136,14 @@ app.get("/test", async (req, res) => {
   const test = GenEdCourse
   res.status(200).send(test)
 });
+
+app.get("/addcoursedetail", async (req,res) => {
+  CourseDetail.map(async (x) => {
+    const CourseDetail = new Coursedetail(x)
+    await CourseDetail.save()
+  })
+res.status(200).send('complete')
+})
 
 app.post("/search", decodeToken, async (req, res) => {
   try {
