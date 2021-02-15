@@ -80,9 +80,10 @@ app.post("/detail", decodeToken, async (req, res) => {
       'x-access-token' : req.headers.authorization.split(" ")[1],
       },
     })
+    const departmentCourse = await Coursedetail.find({year: studentYear, majorCode: detail.data.results.education[0].majorCode})
     const subjectId = studentSubject.data.results.map( data => data.grade).map( data => data.map(data => data.subject_code)).flat()
     const subjects = (await Promise.all(subjectId.map(id => Subject.findOne({id, year: studentYear})))).filter(subject => !!subject)
-    res.status(200).send({ data: detail.data, baseDetail: req.user, subject: subjects });
+    res.status(200).send({ data: detail.data, baseDetail: req.user, subject: subjects, course: departmentCourse });
   } catch (error) {
     res.status(500).send("error");
   }
