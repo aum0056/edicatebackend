@@ -473,14 +473,6 @@
         },
         {
             "year" : 2559,
-            "id" : "01999213",
-            "thainame" : "สิ่งแวดล้อม เทคโนโลยี และชีวิต",
-            "engname" : "Environment, Technology and Life",
-            "credit" : 3,
-            "group" : "อยู่ดีมีสุข"
-        },
-        {
-            "year" : 2559,
             "id" : "01005101",
             "thainame" : "เทคโนโลยีเกษตรสมัยใหม่",
             "engname" : "Modern Agriculture Technology",
