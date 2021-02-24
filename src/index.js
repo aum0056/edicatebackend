@@ -4,11 +4,11 @@ import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import axios from "axios";
 import jwt from "jsonwebtoken";
-import database from "./database";
-import Subject from "./model/Subject";
-import Openingsubject from "./model/Openingsubject";
-import Genedcourse from "./model/GenEdCourse"
-import Coursedetail from "./model/CourseDetail"
+import database from "./database/index.js";
+import Subject from "./model/Subject.js";
+import Openingsubject from "./model/Openingsubject.js";
+import Genedcourse from "./model/GenEdCourse.js"
+import Coursedetail from "./model/CourseDetail.js"
 import subjectData from "./data/subjectData.json";
 import CourseDetail from "./data/CourseDetail.json"
 import GenEdCourse from "./data/GenEdCourse.json"
@@ -150,7 +150,8 @@ app.post("/search", decodeToken, async (req, res) => {
     const startYear = parseInt(req.user.idcode/100000000);
     let studentYear = (startYear >= 60) ? 2559 : 2555
     const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.body.subjectCode }}, { thainame :{ $regex : req.body.subjectCode }}, { engname :{ $regex : req.body.subjectCode, $options: "i" }}]},{year: studentYear}]})
-    res.status(200).send(openingsubject)
+    const openingsubjects = openingsubject.sort((a,b) => a.id-b.id)
+    res.status(200).send(openingsubjects)
   } catch (error) {
     res.status(500).send('error');
   }
@@ -159,7 +160,8 @@ app.post("/search", decodeToken, async (req, res) => {
 app.post("/searchbygroup", async (req, res) => {
   try {
     const openingsubject = await Openingsubject.find({group: req.body.subjectGroup})
-    res.status(200).send(openingsubject);
+    const openingsubjects = openingsubject.sort((a,b) => a.id-b.id)
+    res.status(200).send(openingsubjects);
   } catch (error) {
     res.status(500).send('error');
   }
