@@ -67,7 +67,7 @@ app.post("/detail", decodeToken, async (req, res) => {
       },
       responseType: 'arraybuffer'
     });
-    const buffer = Buffer.from(response.data, 'binary').toString('base64')
+    const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
     const detail = await axios.get(
       `https://myapi.ku.th/std-profile/getStdEducation?stdId=`.concat(
         req.user.stdid
@@ -145,7 +145,7 @@ app.get("/test", async (req, res) => {
       },
       responseType: 'arraybuffer'
     });
-    const buffer = Buffer.from(response.data, 'binary').toString('base64')
+    const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
     res.status(200).send(buffer)
   } catch(error) {
       res.status(500).send('error')
