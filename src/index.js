@@ -95,6 +95,8 @@ app.post("/detail", decodeToken, async (req, res) => {
       res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, image: buffer });
     } else if(req.headers.imgstatus === 'true') {
       res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse});
+    } else {
+      next()
     }
   } catch (error) {
     res.status(500).send("error");
