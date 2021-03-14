@@ -93,10 +93,8 @@ app.post("/detail", decodeToken, async (req, res) => {
       });
       const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
       res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, image: buffer });
-    } else if(req.headers.imgstatus === 'true') {
-      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse});
     } else {
-      next()
+      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse});
     }
   } catch (error) {
     res.status(500).send("error");
