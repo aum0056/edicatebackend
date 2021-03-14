@@ -56,7 +56,7 @@ app.post("/login", validateAuthentication, async (req, res) => {
   res.status(200).send({ message: "ok" });
 });
 
-app.post("/detail", decodeToken, async (req, res) => {
+app.get("/detail", decodeToken, async (req, res) => {
   const startYear = parseInt(req.user.idcode/100000000);
   let studentYear = (startYear >= 60) ? 2559 : 2555
   try {
@@ -164,12 +164,12 @@ app.get("/addcoursedetail", async (req,res) => {
 res.status(200).send('complete')
 })
 
-app.post("/search", decodeToken, async (req, res, next) => {
+app.get("/search", decodeToken, async (req, res, next) => {
   try {
     if(req.user.exp > (Date.now()/1000))  {
       const startYear = parseInt(req.user.idcode/100000000);
       let studentYear = (startYear >= 60) ? 2559 : 2555
-      const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.body.subjectCode }}, { thainame :{ $regex : req.body.subjectCode }}, { engname :{ $regex : req.body.subjectCode, $options: "i" }}]},{year: studentYear}]})
+      const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.query.keyword }}, { thainame :{ $regex : req.query.keyword }}, { engname :{ $regex : req.query.keyword, $options: "i" }}]},{year: studentYear}]})
       const openingsubjects = openingsubject.sort((a,b) => a.id-b.id)
       res.status(200).send(openingsubjects)
     }
@@ -179,10 +179,10 @@ app.post("/search", decodeToken, async (req, res, next) => {
   }
 })
 
-app.post("/searchbygroup", decodeToken, async (req, res) => {
+app.get("/searchbygroup", decodeToken, async (req, res) => {
   try {
     if(req.user.exp > (Date.now()/1000))  {
-      const openingsubject = await Openingsubject.find({group: req.body.subjectGroup})
+      const openingsubject = await Openingsubject.find({group: req.query.keyword})
       const openingsubjects = openingsubject.sort((a,b) => a.id-b.id)
       res.status(200).send(openingsubjects);
     }
@@ -192,7 +192,7 @@ app.post("/searchbygroup", decodeToken, async (req, res) => {
   }
 })
 
-app.post("/genedcourse", decodeToken, async (req, res) => {
+app.get("/genedcourse", decodeToken, async (req, res) => {
   try {
     const startYear = parseInt(req.user.idcode/100000000);
     let studentYear = (startYear >= 60) ? 2559 : 2555
