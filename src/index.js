@@ -81,23 +81,23 @@ app.get("/detail", decodeToken, async (req, res) => {
     const departmentCourse = await Coursedetail.find({year: studentYear, majorCode: detail.data.results.education[0].majorCode})
     const subjectId = studentSubject.data.results.map( data => data.grade).map( data => data.map(data => data.subject_code)).flat()
     const subjects = (await Promise.all(subjectId.map(id => Subject.findOne({id, year: studentYear})))).filter(subject => !!subject).sort((a,b) => a.id-b.id)
-    if(req.headers.imgstatus === 'false') {
-      const response = await axios.get("https://myapi.ku.th/std-profile/stdimages", {
-        headers: {
-          "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
-          "x-access-token": req.headers.authorization.split(" ")[1],
-        },
-        responseType: 'arraybuffer'
-      });
-      const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
-      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, genedcourse: course, image: buffer });
-    } else {
-      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, genedcourse: course});
-    }
+    res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, genedcourse: course});
   } catch (error) {
     res.status(500).send("error");
   }
 });
+
+app.get("/image", decodeToken, async (req, res) => {
+  const response = await axios.get("https://myapi.ku.th/std-profile/stdimages", {
+    headers: {
+      "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+      "x-access-token": req.headers.authorization.split(" ")[1],
+    },
+    responseType: 'arraybuffer'
+  });
+  const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
+  res.status(200).send({ image: buffer });
+})
 
 app.get("/addallsubject", async (req, res) => {
   subjectData.map(async (x) => {
