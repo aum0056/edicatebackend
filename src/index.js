@@ -61,9 +61,7 @@ app.get("/detail", decodeToken, async (req, res) => {
   let studentYear = (startYear >= 60) ? 2559 : 2555
   try {
     const detail = await axios.get(
-      `https://myapi.ku.th/std-profile/getStdEducation?stdId=`.concat(
-        req.user.stdid
-        ),
+      `https://myapi.ku.th/std-profile/getStdEducation?stdId=${req.user.stdid}`,
         {
           headers: {
             "Content-Type": "application/json",
@@ -72,14 +70,14 @@ app.get("/detail", decodeToken, async (req, res) => {
           },
         }
         );
-        const path = 'https://myapi.ku.th/std-profile/checkGrades?idcode='.concat(req.user.idcode)
-        const studentSubject = await axios.get(path, {
+        const studentSubject = await axios.get(`https://myapi.ku.th/std-profile/checkGrades?idcode=${req.user.idcode}`, {
           headers: {
             'Content-Type': 'application/json',
             'app-key' : 'txCR5732xYYWDGdd49M3R19o1OVwdRFc',
             'x-access-token' : req.headers.authorization.split(" ")[1],
           },
     })
+    const course = await Genedcourse.find({year: studentYear})
     const departmentCourse = await Coursedetail.find({year: studentYear, majorCode: detail.data.results.education[0].majorCode})
     const subjectId = studentSubject.data.results.map( data => data.grade).map( data => data.map(data => data.subject_code)).flat()
     const subjects = (await Promise.all(subjectId.map(id => Subject.findOne({id, year: studentYear})))).filter(subject => !!subject).sort((a,b) => a.id-b.id)
@@ -92,9 +90,9 @@ app.get("/detail", decodeToken, async (req, res) => {
         responseType: 'arraybuffer'
       });
       const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
-      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, image: buffer });
+      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, genedcourse: course, image: buffer });
     } else {
-      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse});
+      res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, genedcourse: course});
     }
   } catch (error) {
     res.status(500).send("error");
@@ -115,12 +113,12 @@ app.get("/addsubjectopening", async (req, res) => {
   try {
     const subject = await Subject.find()
     const subjectId = [...new Set(subject.map(data => [data.id, data.year, data.group]).sort())]
-    const urls = subjectId.map(data => "https://myapi.ku.th/enroll/openSubjectForEnroll?query="+data[0]+"-"+(data[1]%100)+"&academicYear=2563&semester=2&campusCode=B&section=")
+    const urls = subjectId.map(data => `https://myapi.ku.th/enroll/openSubjectForEnroll?query=${data[0]}-${(data[1]%100)}&academicYear=2563&semester=2&campusCode=B&section=`)
     const SubjectsOpening = (await Promise.all(urls.map(url => axios.get(url, {
       headers: {
         "Content-Type": "application/json",
         "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
-        "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJ0aXRsZVRoIjoi4LiZ4Liy4LiiIiwibGFzdE5hbWVFbiI6IlBPVE9ORyIsImxhc3ROYW1lVGgiOiLguYLguJ7guJjguLTguYzguJfguK3guIciLCJpYXQiOjE2MTU0OTQ0OTMsImV4cCI6MTYxNTQ5NjI5M30.qBneWLBk6AXpqxgBG1acqBFldLq53UkSqJAh-BdVzVw",
+        "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJsYXN0TmFtZUVuIjoiUE9UT05HIiwibGFzdE5hbWVUaCI6IuC5guC4nuC4mOC4tOC5jOC4l-C4reC4hyIsInRpdGxlVGgiOiLguJnguLLguKIiLCJyb2xlSWQiOm51bGwsImlhdCI6MTYxNTc0NzUwNSwiZXhwIjoxNjE1NzQ5MzA1fQ.5Kx0_3_tMvpgdUg9MtMTb8lG85TY4BXMC7IMChLl26s",
       }
     },)))).map(res => res.data.results[0])
     const subjectsOpeningAddGroup = SubjectsOpening.map((data, index) => data = {...data, ...{"group": subjectId[index][2]}, ...{"year": subjectId[index][1]}}).filter(data => Object.keys(data).length > 2).map(data => data = {"id": data.subjectCode.slice(0,8),"credit": data.maxCredit,"group": data.group, "thainame": data.subjectNameTh, "engname": data.subjectNameEn, "year": data.year })
