@@ -15,6 +15,7 @@ import subjectData from "./data/subjectData.json";
 import CourseDetail from "./data/CourseDetail.json"
 import GenEdCourse from "./data/GenEdCourse.json"
 import studentCourseYear from "./data/studentCourseYear.json"
+import RatedSubject from "./model/ratedSubject.js";
 
 dotenv.config();
 
@@ -35,8 +36,16 @@ const validateAuthentication = async (req, res, next) => {
         "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
       },
     });
+    const year = await axios.get(`https://myapi.ku.th/common/getschedule?stdStatusCode=${response.data.user.student.studentStatusCode}&campusCode=B&userType=${response.data.user.userType}`, {
+      headers: {
+        "Content-Type": "application/json",
+        "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+        "x-access-token": response.data.accesstoken
+      },
+    })
     res.status(200).send({
       "x-access-token": response.data.accesstoken,
+      "results": year.data.results
     });
     
   } catch (error) {
@@ -105,7 +114,7 @@ app.get("/image", decodeToken, async (req, res) => {
 app.get("/ratedsubject", decodeToken, async (req, res) => {
   try {
     if(req.user.exp > (Date.now()/1000)) {
-      const subjects = await Ratedsubject.find()
+      const subjects = await Ratedsubject.find({$and: [{group: req.query.keyword}, {semester: req.query.semester}, {academicYear: req.query.academicyear}]})
       res.status(200).send({subjects: subjects})
     }
     else res.status(500).send('token expired');
@@ -166,15 +175,15 @@ app.get("/addstudentcourseyear", async (req, res) => {
 });
 app.get("/test", async (req, res) => {
   try {
-    const test = await Ratedsubject.find()
-    res.status(200).send(test[0])
+    const test = await Ratedsubject.find({group: "ภาษา"})
+    res.status(200).send(test)
   } catch(error) {
     res.status(500).send('error')
   }
 })
 app.get("/addratedsubject", async (req, res) => {
   try {
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJsYXN0TmFtZUVuIjoiUE9UT05HIiwibGFzdE5hbWVUaCI6IuC5guC4nuC4mOC4tOC5jOC4l-C4reC4hyIsInRpdGxlVGgiOiLguJnguLLguKIiLCJyb2xlSWQiOm51bGwsImlhdCI6MTYxNjI4MzM5MiwiZXhwIjoxNjE2Mjg1MTkyfQ.GZP4y9T5ZiEaxiuvwJiwAplEZ0KQPG8kvaKRy5GRqI0"
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJsYXN0TmFtZUVuIjoiUE9UT05HIiwibGFzdE5hbWVUaCI6IuC5guC4nuC4mOC4tOC5jOC4l-C4reC4hyIsInRpdGxlVGgiOiLguJnguLLguKIiLCJyb2xlSWQiOm51bGwsImlhdCI6MTYxNjMyMDU2MywiZXhwIjoxNjE2MzIyMzYzfQ.RR-z6_LMzmRLGaPP_xEreIe7JSlYEOJrhCzn9WvJFyw"
     const openingsubjects = await Openingsubject.find()
     const openingUrls = openingsubjects.map(data => `https://myapi.ku.th/enroll/searchSubjectOpenEnr?query=${data.id}`)
     const subjectsOpeningId = (await Promise.all(openingUrls.map(url => axios.get(url, {
@@ -200,12 +209,13 @@ app.get("/addratedsubject", async (req, res) => {
     const dataForMerge = sumRegistered.map( id => openingsubjects.filter(data => data.id === id.id).sort((a,b) => b.year-a.year))
     const removeSameId = dataForMerge.map(dataForMerge => dataForMerge[0])
     const addTotalRegistered = removeSameId.map((data,index) => Object.assign(data.toObject(), {totalRegistered: sumRegistered[index].totalRegistered})).sort((a,b) => b.totalRegistered-a.totalRegistered)
-    let ratedByGroup = addTotalRegistered.reduce((r, a) => { r[a.group] = [...r[a.group] || [], a]; return r; }, {});
-    const ratedSubjects = [{academicYear: 2563, semester: 2, subjectsGroup: ratedByGroup}]
-    // console.log(Object.keys(ratedByGroup))
-    // const RatedSubjects = new Ratedsubject(ratedSubjects[0])
-    // await RatedSubjects.save()
-    res.status(200).send(ratedSubjects)
+    const ratedByGroup = [...new Set(addTotalRegistered.map(data => data.group))]
+    let ratedSubjects = ratedByGroup.map(group => group = {academicYear: 2563, semester: 2, group: group, subjects: addTotalRegistered.filter(data => data.group === group)})
+    // ratedSubjects.map(async (x) => {
+    //   const Ratedsubjects = new Ratedsubject(x)
+    //   await Ratedsubjects.save()
+    // })
+    res.status(200).send('complete')
   } catch(error) {
     res.status(500).send('error')
   }
