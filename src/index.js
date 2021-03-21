@@ -7,11 +7,14 @@ import jwt from "jsonwebtoken";
 import database from "./database/index.js";
 import Subject from "./model/Subject.js";
 import Openingsubject from "./model/Openingsubject.js";
-import Genedcourse from "./model/GenEdCourse.js"
+import Genedcourse from "./model/GenEdCourse.js";
+import Studentcourseyear from "./model/studentCourseYear.js"
 import Coursedetail from "./model/CourseDetail.js"
+import Ratedsubject from "./model/ratedSubject.js"
 import subjectData from "./data/subjectData.json";
 import CourseDetail from "./data/CourseDetail.json"
 import GenEdCourse from "./data/GenEdCourse.json"
+import studentCourseYear from "./data/studentCourseYear.json"
 
 dotenv.config();
 
@@ -57,46 +60,58 @@ app.post("/login", validateAuthentication, async (req, res) => {
 });
 
 app.get("/detail", decodeToken, async (req, res) => {
-  const startYear = parseInt(req.user.idcode/100000000);
-  let studentYear = (startYear >= 60) ? 2559 : 2555
   try {
-    const detail = await axios.get(
-      `https://myapi.ku.th/std-profile/getStdEducation?stdId=${req.user.stdid}`,
-        {
-          headers: {
-            "Content-Type": "application/json",
-            "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
-            "x-access-token": req.headers.authorization.split(" ")[1],
-          },
-        }
-        );
-        const studentSubject = await axios.get(`https://myapi.ku.th/std-profile/checkGrades?idcode=${req.user.idcode}`, {
-          headers: {
-            'Content-Type': 'application/json',
-            'app-key' : 'txCR5732xYYWDGdd49M3R19o1OVwdRFc',
-            'x-access-token' : req.headers.authorization.split(" ")[1],
-          },
+    const startYear = await Studentcourseyear.find({startYear: parseInt(req.user.idcode/100000000)})
+    const detail = await axios.get(`https://myapi.ku.th/std-profile/getStdEducation?stdId=${req.user.stdid}`, {
+      headers: {
+        "Content-Type": "application/json",
+        "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+        "x-access-token": req.headers.authorization.split(" ")[1],
+      },
+    });
+    const studentSubject = await axios.get(`https://myapi.ku.th/std-profile/checkGrades?idcode=${req.user.idcode}`, {
+      headers: {
+        'Content-Type': 'application/json',
+        'app-key' : 'txCR5732xYYWDGdd49M3R19o1OVwdRFc',
+        'x-access-token' : req.headers.authorization.split(" ")[1],
+      },
     })
-    const course = await Genedcourse.find({year: studentYear})
-    const departmentCourse = await Coursedetail.find({year: studentYear, majorCode: detail.data.results.education[0].majorCode})
+    const course = await Genedcourse.find({year: startYear[0].stdCourse})
+    const departmentCourse = await Coursedetail.find({year: startYear[0].stdCourse, majorCode: detail.data.results.education[0].majorCode})
     const subjectId = studentSubject.data.results.map( data => data.grade).map( data => data.map(data => data.subject_code)).flat()
-    const subjects = (await Promise.all(subjectId.map(id => Subject.findOne({id, year: studentYear})))).filter(subject => !!subject).sort((a,b) => a.id-b.id)
-    res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, genedcourse: course});
+    const subjects = (await Subject.find({ id: { $in: subjectId }, year: startYear[0].stdCourse})).sort((a,b) => a.id-b.id)
+    res.status(200).send({ data: detail.data, subject: subjects, course: departmentCourse, genedcourse: course });
   } catch (error) {
     res.status(500).send("error");
   }
 });
 
 app.get("/image", decodeToken, async (req, res) => {
-  const response = await axios.get("https://myapi.ku.th/std-profile/stdimages", {
-    headers: {
-      "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
-      "x-access-token": req.headers.authorization.split(" ")[1],
-    },
-    responseType: 'arraybuffer'
-  });
-  const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
-  res.status(200).send({ image: buffer });
+  try {
+    const response = await axios.get("https://myapi.ku.th/std-profile/stdimages", {
+      headers: {
+        "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+        "x-access-token": req.headers.authorization.split(" ")[1],
+      },
+      responseType: 'arraybuffer'
+    });
+    const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
+    res.status(200).send({ image: buffer });
+  } catch (error) {
+    res.status(500).send('error');
+}
+});
+
+app.get("/ratedsubject", decodeToken, async (req, res) => {
+  try {
+    if(req.user.exp > (Date.now()/1000)) {
+      const subjects = await Ratedsubject.find()
+      res.status(200).send({subjects: subjects})
+    }
+    else res.status(500).send('token expired');
+  } catch(error) {
+    res.status(500).send('error')
+  }
 })
 
 app.get("/addallsubject", async (req, res) => {
@@ -118,7 +133,7 @@ app.get("/addsubjectopening", async (req, res) => {
       headers: {
         "Content-Type": "application/json",
         "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
-        "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJsYXN0TmFtZUVuIjoiUE9UT05HIiwibGFzdE5hbWVUaCI6IuC5guC4nuC4mOC4tOC5jOC4l-C4reC4hyIsInRpdGxlVGgiOiLguJnguLLguKIiLCJyb2xlSWQiOm51bGwsImlhdCI6MTYxNTc0NzUwNSwiZXhwIjoxNjE1NzQ5MzA1fQ.5Kx0_3_tMvpgdUg9MtMTb8lG85TY4BXMC7IMChLl26s",
+        "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJ0aXRsZVRoIjoi4LiZ4Liy4LiiIiwibGFzdE5hbWVFbiI6IlBPVE9ORyIsImxhc3ROYW1lVGgiOiLguYLguJ7guJjguLTguYzguJfguK3guIciLCJpYXQiOjE2MTU5NzY4NDIsImV4cCI6MTYxNTk3ODY0Mn0.ZBUyrBhTf8-50lSGxRhhUki4BcEnnaH0LphPKmjrSKQ",
       }
     },)))).map(res => res.data.results[0])
     const subjectsOpeningAddGroup = SubjectsOpening.map((data, index) => data = {...data, ...{"group": subjectId[index][2]}, ...{"year": subjectId[index][1]}}).filter(data => Object.keys(data).length > 2).map(data => data = {"id": data.subjectCode.slice(0,8),"credit": data.maxCredit,"group": data.group, "thainame": data.subjectNameTh, "engname": data.subjectNameEn, "year": data.year })
@@ -138,20 +153,62 @@ app.get("/addgenedcourse", async (req, res) => {
   })
   res.status(200).send('complete')
 });
-app.get("/test", async (req, res) => {
+app.get("/addstudentcourseyear", async (req, res) => {
   try {
-    const response = await axios.get("https://myapi.ku.th/std-profile/stdimages", {
-      headers: {
-        "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
-        "x-access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJ0aXRsZVRoIjoi4LiZ4Liy4LiiIiwibGFzdE5hbWVFbiI6IlBPVE9ORyIsImxhc3ROYW1lVGgiOiLguYLguJ7guJjguLTguYzguJfguK3guIciLCJpYXQiOjE2MTU0ODE1ODcsImV4cCI6MTYxNTQ4MzM4N30.6bmhJ8bVjVB1vY3OuUmaKGzY7X07vptU0nf-1F-fnGQ",
-      },
-      responseType: 'arraybuffer'
-    });
-    const buffer = `data:image/jpeg;base64,${Buffer.from(response.data, 'binary').toString('base64')}`
-    res.status(200).send(buffer)
+    studentCourseYear.map(async (x) => {
+      const StudentCourseYear = new Studentcourseyear(x)
+      await StudentCourseYear.save()
+    })
+    res.status(200).send('complete')
   } catch(error) {
       res.status(500).send('error')
     }
+});
+app.get("/test", async (req, res) => {
+  try {
+    const test = await Ratedsubject.find()
+    res.status(200).send(test[0])
+  } catch(error) {
+    res.status(500).send('error')
+  }
+})
+app.get("/addratedsubject", async (req, res) => {
+  try {
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImI2MDEwNTA0NzY3IiwidXNlcnR5cGUiOiIxIiwiaWRjb2RlIjoiNjAxMDUwNDc2NyIsInN0ZGlkIjoiMTAwNzkwIiwiZmlyc3ROYW1lRW4iOiJOb3Jhc2V0IiwiZmlyc3ROYW1lVGgiOiLguJnguKPguYDguKjguKPguKnguJDguYwiLCJsYXN0TmFtZUVuIjoiUE9UT05HIiwibGFzdE5hbWVUaCI6IuC5guC4nuC4mOC4tOC5jOC4l-C4reC4hyIsInRpdGxlVGgiOiLguJnguLLguKIiLCJyb2xlSWQiOm51bGwsImlhdCI6MTYxNjI4MzM5MiwiZXhwIjoxNjE2Mjg1MTkyfQ.GZP4y9T5ZiEaxiuvwJiwAplEZ0KQPG8kvaKRy5GRqI0"
+    const openingsubjects = await Openingsubject.find()
+    const openingUrls = openingsubjects.map(data => `https://myapi.ku.th/enroll/searchSubjectOpenEnr?query=${data.id}`)
+    const subjectsOpeningId = (await Promise.all(openingUrls.map(url => axios.get(url, {
+      headers: {
+        "Content-Type": "application/json",
+        "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+        "x-access-token": token,
+      }
+    },)))).map(res => res.data).map(data => data.subjects.map(data => data.subjectCode)).flat()
+    const uniqueSubjectsOpeningId = [...new Set(subjectsOpeningId)]
+    const secOpeningUrls = uniqueSubjectsOpeningId.map(id => `https://myapi.ku.th/enroll/openSubjectForEnroll?query=${id}&academicYear=2563&semester=2&campusCode=B&section=`)
+    const searchSecOpening = (await Promise.all(secOpeningUrls.map(url => axios.get(url, {
+      headers: {
+        "Content-Type": "application/json",
+        "app-key": "txCR5732xYYWDGdd49M3R19o1OVwdRFc",
+        "x-access-token": token,
+      }
+    },)))).map(res => res.data).map(data => data.results).map(result => result.map(data => [{id: data.subjectCode.slice(0,8), totalRegistered: data.totalRegistered}]))
+    const setSecOpening = searchSecOpening.flat(2)
+    const sumRegistered = Array.from(setSecOpening.reduce(
+      (m, {id, totalRegistered}) => m.set(id, (m.get(id) || 0) + totalRegistered), new Map
+    ), ([id, totalRegistered]) => ({id, totalRegistered}))
+    const dataForMerge = sumRegistered.map( id => openingsubjects.filter(data => data.id === id.id).sort((a,b) => b.year-a.year))
+    const removeSameId = dataForMerge.map(dataForMerge => dataForMerge[0])
+    const addTotalRegistered = removeSameId.map((data,index) => Object.assign(data.toObject(), {totalRegistered: sumRegistered[index].totalRegistered})).sort((a,b) => b.totalRegistered-a.totalRegistered)
+    let ratedByGroup = addTotalRegistered.reduce((r, a) => { r[a.group] = [...r[a.group] || [], a]; return r; }, {});
+    const ratedSubjects = [{academicYear: 2563, semester: 2, subjectsGroup: ratedByGroup}]
+    // console.log(Object.keys(ratedByGroup))
+    // const RatedSubjects = new Ratedsubject(ratedSubjects[0])
+    // await RatedSubjects.save()
+    res.status(200).send(ratedSubjects)
+  } catch(error) {
+    res.status(500).send('error')
+  }
 });
 
 app.get("/addcoursedetail", async (req,res) => {
@@ -165,9 +222,8 @@ res.status(200).send('complete')
 app.get("/search", decodeToken, async (req, res, next) => {
   try {
     if(req.user.exp > (Date.now()/1000))  {
-      const startYear = parseInt(req.user.idcode/100000000);
-      let studentYear = (startYear >= 60) ? 2559 : 2555
-      const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.query.keyword }}, { thainame :{ $regex : req.query.keyword }}, { engname :{ $regex : req.query.keyword, $options: "i" }}]},{year: studentYear}]})
+      const startYear = await Studentcourseyear.find({startYear: parseInt(req.user.idcode/100000000)})
+      const openingsubject = await Openingsubject.find({$and: [{$or: [{ id: { $regex: req.query.keyword }}, { thainame :{ $regex : req.query.keyword }}, { engname :{ $regex : req.query.keyword, $options: "i" }}]},{year: startYear[0].stdCourse}]})
       const openingsubjects = openingsubject.sort((a,b) => a.id-b.id)
       res.status(200).send(openingsubjects)
     }
@@ -192,9 +248,8 @@ app.get("/searchbygroup", decodeToken, async (req, res) => {
 
 app.get("/genedcourse", decodeToken, async (req, res) => {
   try {
-    const startYear = parseInt(req.user.idcode/100000000);
-    let studentYear = (startYear >= 60) ? 2559 : 2555
-    const course = await Genedcourse.find({year: studentYear})
+    const startYear = await Studentcourseyear.find({startYear: parseInt(req.user.idcode/100000000)})
+    const course = await Genedcourse.find({year: startYear[0].stdCourse})
     res.status(200).send(course)
   } catch (error) {
     res.status(500).send('error');
